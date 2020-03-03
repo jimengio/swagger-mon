@@ -1,0 +1,25 @@
+
+{
+  :port 7800
+  :routes [
+    {
+     :path "iot"
+     :next [
+       {
+         :path "devices"
+         :get {:type :file, :file "devices.json"}
+         :next [
+           {
+             :path "categories"
+             :get {:type :file, :file "categories.json"}
+           }
+           {
+             :path ":deviceId"
+             :delete {:code 200, :type :file, :file "ok.json"}
+           }
+         ]
+       }
+     ]
+    }
+  ]
+}

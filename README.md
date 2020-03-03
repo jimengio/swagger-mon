@@ -1,46 +1,36 @@
 
-Calcit Workflow
+Swagger Mon
 ----
 
-> Personal project template based on ClojureScript, Respo, shadow-cljs, Cirru.
+> generate mock data from swagger schema
 
-### Usage
 
-Make sure you have Node.js and JVM installed. Then install dependencies:
+Site http://fe.jimu.io/swagger-mon/
 
-```bash
-yarn
+For swagger definition:
+
+```json
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"id":{"type":"string"},"categoryId":{"type":"string"},"name":{"type":"string"},"varname":{"type":"string"},"type":{"type":"string"},"unit":{"type":"string"},"readonly":{"type":"boolean"},"reportType":{"type":"string"},"intervalMsec":{"type":"number"},"description":{"type":"string"},"createdAt":{"type":"string"},"updatedAt":{"type":"string"}}}
 ```
 
-All build script are running in:
+Generate data with random values:
 
-```bash
-yarn watch # to start watch server...
-yarn page # to generate target/index.html file
-yarn ln # link CSS files to target/ folder
-yarn build # to build release bundles, with local assets links
-```
+```json
+{
+  "readonly": false,
+  "updatedAt": "2020-03-03T07:30:43.623Z",
+  "reportType": "amet nostrud magna",
+  "createdAt": "2020-03-03T07:30:43.623Z",
+  "id": "_UmikfMEy",
+  "name": "sit",
+  "type": "commodo laborum esse",
+  "varname": "eiusmod est est sunt officia officia incididunt dolor",
+  "unit": "aute labore reprehenderit",
+  "intervalMsec": 59,
+  "description": "incididunt mollit deserunt",
+  "categoryId": "HHZOkV1YF"
+}
 
-Edit `config.cljs` to change the settings as you want(by default it sends assets to my server). To release:
-
-```bash
-yarn build-cdn # to build release bundles, with assets link to CDN
-yarn upload # to upload assets to my server
-```
-
-Edit Clojure with [calcit-editor](https://github.com/Cirru/calcit-editor):
-
-```bash
-npm i -g calcit-editor
-calcit-editor # watching server...
-
-op=compile calcit-editor # if you need to generate code at once
-```
-
-Package jar file and send to Clojars with [Meyvn](https://github.com/danielsz/meyvn):
-
-```bash
-myven deploy
 ```
 
 ### Workflow
