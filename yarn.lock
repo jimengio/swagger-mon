@@ -147,6 +147,11 @@ colors@^1.3.3:
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
+commander@^2.17.1:
+  version "2.20.3"
+  resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+
 console-browserify@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.2.0.tgz#67063cef57ceb6cf4993a2ab3a55840ae8c49336"
@@ -399,6 +404,13 @@ lodash@^4.17.14:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lorem-ipsum@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/lorem-ipsum/-/lorem-ipsum-2.0.3.tgz#9f1fa634780c9f58a349d4e091c3ba74f733164e"
+  integrity sha512-CX2r84DMWjW/DWiuzicTI9aRaJPAw2cvAGMJYZh/nx12OkTGqloj8y8FU0S8ZkKwOdqhfxEA6Ly8CW2P6Yxjwg==
+  dependencies:
+    commander "^2.17.1"
 
 md5.js@^1.3.4:
   version "1.3.5"
