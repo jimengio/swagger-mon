@@ -1,0 +1,38 @@
+{
+  "result": [
+    {
+      "id": "11",
+      "name": "CNC机加工设备",
+      "description": "commodo Duis in occaecat minim",
+      "createdAt": "Lorem consectetur adipisicing",
+      "updatedAt": "dolor tempor",
+      "deviceNum": 1
+    },
+    {
+      "id": "12",
+      "name": "硫化机设备",
+      "description": "commodo Duis in occaecat minim",
+      "createdAt": "Lorem consectetur adipisicing",
+      "updatedAt": "dolor tempor",
+      "deviceNum": 2
+    },
+    {
+      "id": "13",
+      "name": "CNC机加工设备",
+      "description": "commodo Duis in occaecat minim",
+      "createdAt": "Lorem consectetur adipisicing",
+      "updatedAt": "dolor tempor",
+      "deviceNum": 2
+    },
+
+    {
+      "id": "14",
+      "name": "硫化机设备",
+      "description": "commodo Duis in occaecat minim",
+      "createdAt": "Lorem consectetur adipisicing",
+      "updatedAt": "dolor tempor",
+      "deviceNum": 2
+    }
+  ],
+  "total": 4
+}

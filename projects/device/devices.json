@@ -1,0 +1,45 @@
+{
+  "result": [
+    {
+      "description": "demdemo",
+      "category": {
+        "id": "11",
+        "name": "CNC机加工设备",
+        "description": "commodo Duis in occaecat minim",
+        "createdAt": "2020-03-02T09:52:41.229Z",
+        "updatedAt": "2020-03-02T09:52:41.229Z",
+        "deviceNum": 1
+      },
+      "deleted": false,
+      "updatedAt": "2020-03-02T09:52:41.229Z",
+      "name": "CCC",
+      "categoryId": "11",
+      "createdAt": "2020-03-02T09:52:41.229Z",
+      "status": "TODO",
+      "id": "00033",
+      "edgeDeviceId": "000033",
+      "model": "TODO"
+    },
+    {
+      "description": "demdemo",
+      "category": {
+        "id": "11",
+        "name": "CNC机加工设备",
+        "description": "commodo Duis in occaecat minim",
+        "createdAt": "2020-03-02T09:52:41.229Z",
+        "updatedAt": "2020-03-02T09:52:41.229Z",
+        "deviceNum": 1
+      },
+      "deleted": false,
+      "updatedAt": "2020-03-02T09:52:41.229Z",
+      "name": "qerwerw ",
+      "categoryId": "11",
+      "createdAt": "2020-03-02T09:52:41.229Z",
+      "status": "TODO",
+      "id": "00033",
+      "edgeDeviceId": "0000323",
+      "model": "TODO"
+    }
+  ],
+  "total": 2
+}
