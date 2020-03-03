@@ -37,6 +37,7 @@
     "string" (.generateWords lorem (rand-int 4))
     "boolean" (> (rand) 0.5)
     "number" (rand-int 100)
+    "integer" (rand-int 100)
     "array" (->> (range (rand-int 6)) (map (fn [idx] (expand-node (get schema "items")))))
     (do (js/console.warn "Unknown schema:" schema) schema)))
 

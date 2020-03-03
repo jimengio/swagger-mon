@@ -16,6 +16,12 @@
            {
              :path ":deviceId"
              :delete {:code 200, :type :file, :file "ok.json"}
+             :next [
+               {
+                 :path ":status"
+                 :post {:code 200, :type :file, :file "ok.json"}
+               }
+             ]
            }
          ]
        }
