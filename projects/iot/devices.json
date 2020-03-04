@@ -1,45 +1,80 @@
 {
   "result": [
     {
-      "description": "demdemo",
+      "updatedAt": "2020-03-03T09:53:56.485Z",
+      "model": "laboris magna anim",
+      "createdAt": "2020-03-03T09:53:56.485Z",
+      "id": "bRK3ikom",
+      "name": "voluptate",
+      "status": 55,
+      "deleted": true,
+      "state": 1,
       "category": {
-        "id": "11",
-        "name": "CNC机加工设备",
-        "description": "commodo Duis in occaecat minim",
-        "createdAt": "2020-03-02T09:52:41.229Z",
-        "updatedAt": "2020-03-02T09:52:41.229Z",
-        "deviceNum": 1
+        "id": "0onGmf5al",
+        "name": "consectetur"
       },
-      "deleted": false,
-      "updatedAt": "2020-03-02T09:52:41.229Z",
-      "name": "CCC",
-      "categoryId": "11",
-      "createdAt": "2020-03-02T09:52:41.229Z",
-      "status": "TODO",
-      "id": "00033",
-      "edgeDeviceId": "000033",
-      "model": "TODO"
+      "description": "id"
     },
     {
-      "description": "demdemo",
+      "updatedAt": "2020-03-03T09:53:56.486Z",
+      "model": "dolore qui pariatur",
+      "createdAt": "2020-03-03T09:53:56.486Z",
+      "id": "GVQNpIqRs",
+      "name": "dolore",
+      "status": 41,
+      "deleted": true,
+      "state": 0,
       "category": {
-        "id": "11",
-        "name": "CNC机加工设备",
-        "description": "commodo Duis in occaecat minim",
-        "createdAt": "2020-03-02T09:52:41.229Z",
-        "updatedAt": "2020-03-02T09:52:41.229Z",
-        "deviceNum": 1
+        "id": "Za-4p4wkE",
+        "name": "cillum"
       },
+      "description": "aliquip"
+    },
+    {
+      "updatedAt": "2020-03-03T09:53:56.486Z",
+      "model": "voluptate sint",
+      "createdAt": "2020-03-03T09:53:56.486Z",
+      "id": "J3IZykrRJ",
+      "name": "consectetur",
+      "status": 0,
       "deleted": false,
-      "updatedAt": "2020-03-02T09:52:41.229Z",
-      "name": "qerwerw ",
-      "categoryId": "11",
-      "createdAt": "2020-03-02T09:52:41.229Z",
-      "status": "TODO",
-      "id": "00033",
-      "edgeDeviceId": "0000323",
-      "model": "TODO"
+      "state": 1,
+      "category": {
+        "id": "OiY9HhgWc",
+        "name": "consectetur"
+      },
+      "description": "cupidatat"
+    },
+    {
+      "updatedAt": "2020-03-03T09:53:56.486Z",
+      "model": "veniam",
+      "createdAt": "2020-03-03T09:53:56.486Z",
+      "id": "3Qqs1bIuS",
+      "name": "ad",
+      "status": 55,
+      "deleted": true,
+      "state": 1,
+      "category": {
+        "id": "KbbbIVJal",
+        "name": "mollit"
+      },
+      "description": "sint cillum amet fugiat officia ad anim occaecat occaecat"
+    },
+    {
+      "updatedAt": "2020-03-03T09:53:56.487Z",
+      "model": "nulla deserunt",
+      "createdAt": "2020-03-03T09:53:56.487Z",
+      "id": "tAquOPLzb",
+      "name": "irure",
+      "status": 46,
+      "deleted": false,
+      "state": 0,
+      "category": {
+        "id": "byJeV2H9y",
+        "name": "sunt"
+      },
+      "description": "non voluptate"
     }
   ],
-  "total": 2
+  "total": 5
 }

@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2020-03-03T12:32:20.698Z",
+  "model": "sunt",
+  "createdAt": "2020-03-03T12:32:20.698Z",
+  "id": "Cadr8mwRV",
+  "name": "ipsum",
+  "status": 93,
+  "deleted": true,
+  "state": 91,
+  "category": {
+    "id": "wAIqAgu_E",
+    "name": "exercitation"
+  },
+  "description": "aliqua minim et adipisicing fugiat non sunt sit consectetur"
+}

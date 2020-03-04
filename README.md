@@ -18,20 +18,21 @@ Generate data with random values:
 ```json
 {
   "readonly": false,
-  "updatedAt": "2020-03-03T07:30:43.623Z",
-  "reportType": "amet nostrud magna",
-  "createdAt": "2020-03-03T07:30:43.623Z",
-  "id": "_UmikfMEy",
-  "name": "sit",
-  "type": "commodo laborum esse",
-  "varname": "eiusmod est est sunt officia officia incididunt dolor",
-  "unit": "aute labore reprehenderit",
-  "intervalMsec": 59,
-  "description": "incididunt mollit deserunt",
-  "categoryId": "HHZOkV1YF"
+  "updatedAt": "2020-03-04T04:25:36.505Z",
+  "reportType": "深圳",
+  "createdAt": "2020-03-04T04:25:36.505Z",
+  "id": "PN8R1ToO",
+  "name": "菏泽",
+  "type": "Quanzhou 黄山 嘉兴",
+  "varname": "Yinchuan",
+  "unit": "Hainan 舟山 保山",
+  "intervalMsec": 69,
+  "description": "Yichun 张家界 石家庄 Neijiang",
+  "categoryId": "ks6MVtWng"
 }
-
 ```
+
+Mock strings are based on https://github.com/brightgems/china_city_dataset .
 
 ### Workflow
 

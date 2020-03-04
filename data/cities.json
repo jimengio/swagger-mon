@@ -1,0 +1,3107 @@
+[
+  {
+    "city": "七台河",
+    "cityAdmaster": "七台河市",
+    "cityEn": "Qitaihe",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "三亚",
+    "cityAdmaster": "三亚市",
+    "cityEn": "Sanya",
+    "province": "海南",
+    "provinceEn": "Hainan",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "三明",
+    "cityAdmaster": "三明市",
+    "cityEn": "Sanming",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "三门峡",
+    "cityAdmaster": "三门峡市",
+    "cityEn": "Sanmenxia",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "上海",
+    "cityAdmaster": "上海市",
+    "cityEn": "Shanghai",
+    "province": "上海",
+    "provinceEn": "Shanghai",
+    "region": "East",
+    "tier": "Tier 1"
+  },
+  {
+    "city": "上饶",
+    "cityAdmaster": "上饶市",
+    "cityEn": "Shangrao",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "东莞",
+    "cityAdmaster": "东莞市",
+    "cityEn": "Dongguan",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "东营",
+    "cityAdmaster": "东营市",
+    "cityEn": "Dongying",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "中卫",
+    "cityAdmaster": "中卫市",
+    "cityEn": "Zhongwei",
+    "province": "宁夏",
+    "provinceEn": "Ningxia",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "中山",
+    "cityAdmaster": "中山市",
+    "cityEn": "Zhongshan",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "临汾",
+    "cityAdmaster": "临汾市",
+    "cityEn": "Linfen",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "临沂",
+    "cityAdmaster": "临沂市",
+    "cityEn": "Linyi",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "临沧",
+    "cityAdmaster": "临沧市",
+    "cityEn": "Lincang",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "丹东",
+    "cityAdmaster": "丹东市",
+    "cityEn": "Dandong",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "丽水",
+    "cityAdmaster": "丽水市",
+    "cityEn": "Lishui",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "丽江",
+    "cityAdmaster": "丽江市",
+    "cityEn": "Lijiang",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "乌兰察布",
+    "cityAdmaster": "乌兰察布市",
+    "cityEn": "Ulanqab",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "乌海",
+    "cityAdmaster": "乌海市",
+    "cityEn": "Wuhai",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "乌鲁木齐",
+    "cityAdmaster": "乌鲁木齐市",
+    "cityEn": "Urumqi",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "乐山",
+    "cityAdmaster": "乐山市",
+    "cityEn": "Leshan",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "九江",
+    "cityAdmaster": "九江市",
+    "cityEn": "Jiujiang",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "云浮",
+    "cityAdmaster": "云浮市",
+    "cityEn": "Yunfu",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "亳州",
+    "cityAdmaster": "亳州市",
+    "cityEn": "Bozhou",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "伊春",
+    "cityAdmaster": "伊春市",
+    "cityEn": "Yichun",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "伊犁",
+    "cityAdmaster": "伊犁哈萨克自治州",
+    "cityEn": "Yili",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "佛山",
+    "cityAdmaster": "佛山市",
+    "cityEn": "Foshan",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "佳木斯",
+    "cityAdmaster": "佳木斯市",
+    "cityEn": "Jiamusi",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "保定",
+    "cityAdmaster": "保定市",
+    "cityEn": "Baoding",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "保山",
+    "cityAdmaster": "保山市",
+    "cityEn": "Baoshan",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "信阳",
+    "cityAdmaster": "信阳市",
+    "cityEn": "Xinyang",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "儋州",
+    "cityAdmaster": "儋州市",
+    "cityEn": "Danzhou",
+    "province": "海南",
+    "provinceEn": "Hainan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "克孜勒苏柯尔克孜",
+    "cityAdmaster": "克孜勒苏柯尔克孜自治州",
+    "cityEn": "Kezilesukeerkezi",
+    "province": "新疆",
+    "provinceEn": "xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "克拉玛依",
+    "cityAdmaster": "克拉玛依市",
+    "cityEn": "Karamay",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "六安",
+    "cityAdmaster": "六安市",
+    "cityEn": "Lu'an",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "六盘水",
+    "cityAdmaster": "六盘水市",
+    "cityEn": "Liupanshui",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "兰州",
+    "cityAdmaster": "兰州市",
+    "cityEn": "Lanzhou",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "兴安盟",
+    "cityAdmaster": "兴安盟",
+    "cityEn": "Xinganmeng",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "内江",
+    "cityAdmaster": "内江市",
+    "cityEn": "Neijiang",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "凉山",
+    "cityAdmaster": "凉山彝族自治州",
+    "cityEn": "Liangshan",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "包头",
+    "cityAdmaster": "包头市",
+    "cityEn": "Baotou",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "北京",
+    "cityAdmaster": "北京市",
+    "cityEn": "Beijing",
+    "province": "北京",
+    "provinceEn": "Beijing",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "北海",
+    "cityAdmaster": "北海市",
+    "cityEn": "Beihai",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "十堰",
+    "cityAdmaster": "十堰市",
+    "cityEn": "Shiyan",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "南京",
+    "cityAdmaster": "南京市",
+    "cityEn": "Nanjing",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "南充",
+    "cityAdmaster": "南充市",
+    "cityEn": "Nanchong",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "南宁",
+    "cityAdmaster": "南宁市",
+    "cityEn": "Nanning",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "南平",
+    "cityAdmaster": "南平市",
+    "cityEn": "Nanping",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "南昌",
+    "cityAdmaster": "南昌市",
+    "cityEn": "Nanchang",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "南通",
+    "cityAdmaster": "南通市",
+    "cityEn": "Nantong",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "南阳",
+    "cityAdmaster": "南阳市",
+    "cityEn": "Nanyang",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "博尔塔拉",
+    "cityAdmaster": "博尔塔拉蒙古自治州",
+    "cityEn": "Boertala",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "厦门",
+    "cityAdmaster": "厦门市",
+    "cityEn": "Xiamen",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "双鸭山",
+    "cityAdmaster": "双鸭山市",
+    "cityEn": "Shuangyashan",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "台州",
+    "cityAdmaster": "台州市",
+    "cityEn": "Taizhou",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "合肥",
+    "cityAdmaster": "合肥市",
+    "cityEn": "Hefei",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "吉安",
+    "cityAdmaster": "吉安市",
+    "cityEn": "Ji'an",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "吉林",
+    "cityAdmaster": "吉林市",
+    "cityEn": "Jilin",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "吐鲁番",
+    "cityAdmaster": "吐鲁番地区",
+    "cityEn": "Tulufan",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "吐鲁番",
+    "cityAdmaster": "吐鲁番市",
+    "cityEn": "Turpan",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "吕梁",
+    "cityAdmaster": "吕梁市",
+    "cityEn": "Lüliang",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "吴忠",
+    "cityAdmaster": "吴忠市",
+    "cityEn": "Wuzhong",
+    "province": "宁夏",
+    "provinceEn": "Ningxia",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "周口",
+    "cityAdmaster": "周口市",
+    "cityEn": "Zhoukou",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "呼伦贝尔",
+    "cityAdmaster": "呼伦贝尔市",
+    "cityEn": "Hulunbuir",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "呼和浩特",
+    "cityAdmaster": "呼和浩特市",
+    "cityEn": "Hohhot",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "和田",
+    "cityAdmaster": "和田地区",
+    "cityEn": "Hetian",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "咸宁",
+    "cityAdmaster": "咸宁市",
+    "cityEn": "Xianning",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "咸阳",
+    "cityAdmaster": "咸阳市",
+    "cityEn": "Xianyang",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "哈密",
+    "cityAdmaster": "哈密地区",
+    "cityEn": "Hami",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "哈尔滨",
+    "cityAdmaster": "哈尔滨市",
+    "cityEn": "Harbin",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "唐山",
+    "cityAdmaster": "唐山市",
+    "cityEn": "Tangshan",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "商丘",
+    "cityAdmaster": "商丘市",
+    "cityEn": "Shangqiu",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "商洛",
+    "cityAdmaster": "商洛市",
+    "cityEn": "Shangluo",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "喀什",
+    "cityAdmaster": "喀什地区",
+    "cityEn": "Kashen",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "嘉兴",
+    "cityAdmaster": "嘉兴市",
+    "cityEn": "Jiaxing",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "嘉峪关",
+    "cityAdmaster": "嘉峪关市",
+    "cityEn": "Jiayuguan",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "四平",
+    "cityAdmaster": "四平市",
+    "cityEn": "Siping",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "固原",
+    "cityAdmaster": "固原市",
+    "cityEn": "Guyuan",
+    "province": "宁夏",
+    "provinceEn": "Ningxia",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "塔城",
+    "cityAdmaster": "塔城地区",
+    "cityEn": "Tacheng",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "大兴安岭",
+    "cityAdmaster": "大兴安岭地区",
+    "cityEn": "Daxinganling",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "大同",
+    "cityAdmaster": "大同市",
+    "cityEn": "Datong",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "大庆",
+    "cityAdmaster": "大庆市",
+    "cityEn": "Daqing",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "大理",
+    "cityAdmaster": "大理白族自治州",
+    "cityEn": "Dali",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "大连",
+    "cityAdmaster": "大连市",
+    "cityEn": "Dalian",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "天水",
+    "cityAdmaster": "天水市",
+    "cityEn": "Tianshui",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "天津",
+    "cityAdmaster": "天津市",
+    "cityEn": "Tianjin",
+    "province": "天津",
+    "provinceEn": "Tianjin",
+    "region": "North",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "太原",
+    "cityAdmaster": "太原市",
+    "cityEn": "Taiyuan",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "威海",
+    "cityAdmaster": "威海市",
+    "cityEn": "Weihai",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "娄底",
+    "cityAdmaster": "娄底市",
+    "cityEn": "Loudi",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "孝感",
+    "cityAdmaster": "孝感市",
+    "cityEn": "Xiaogan",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "宁德",
+    "cityAdmaster": "宁德市",
+    "cityEn": "Ningde",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "宁波",
+    "cityAdmaster": "宁波市",
+    "cityEn": "Ningbo",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "安庆",
+    "cityAdmaster": "安庆市",
+    "cityEn": "Anqing",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "安康",
+    "cityAdmaster": "安康市",
+    "cityEn": "Ankang",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "安阳",
+    "cityAdmaster": "安阳市",
+    "cityEn": "Anyang",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "安顺",
+    "cityAdmaster": "安顺市",
+    "cityEn": "Anshun",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "定西",
+    "cityAdmaster": "定西市",
+    "cityEn": "Dingxi",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "宜宾",
+    "cityAdmaster": "宜宾市",
+    "cityEn": "Yibin",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "宜昌",
+    "cityAdmaster": "宜昌市",
+    "cityEn": "Yichang",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "宜春",
+    "cityAdmaster": "宜春市",
+    "cityEn": "Yichun",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "宝鸡",
+    "cityAdmaster": "宝鸡市",
+    "cityEn": "Baoji",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "宣城",
+    "cityAdmaster": "宣城市",
+    "cityEn": "Xuancheng",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "宿州",
+    "cityAdmaster": "宿州市",
+    "cityEn": "Suzhou",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "宿迁",
+    "cityAdmaster": "宿迁市",
+    "cityEn": "Suqian",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "山南",
+    "cityAdmaster": "山南地区",
+    "cityEn": "Shannan",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "山南",
+    "cityAdmaster": "山南市",
+    "cityEn": "Shannan",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "岳阳",
+    "cityAdmaster": "岳阳市",
+    "cityEn": "Yueyang",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "崇左",
+    "cityAdmaster": "崇左市",
+    "cityEn": "Chongzuo",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "巢湖",
+    "cityAdmaster": "巢湖市",
+    "cityEn": "Chaohu",
+    "province": "安徽",
+    "provinceEn": "anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "巴中",
+    "cityAdmaster": "巴中市",
+    "cityEn": "Bazhong",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "巴彦淖尔",
+    "cityAdmaster": "巴彦淖尔市",
+    "cityEn": "Bayannur",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "巴音郭楞",
+    "cityAdmaster": "巴音郭楞蒙古自治州",
+    "cityEn": "Bayinguoleng",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "常州",
+    "cityAdmaster": "常州市",
+    "cityEn": "Changzhou",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "常德",
+    "cityAdmaster": "常德市",
+    "cityEn": "Changde",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "平凉",
+    "cityAdmaster": "平凉市",
+    "cityEn": "Pingliang",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "平顶山",
+    "cityAdmaster": "平顶山市",
+    "cityEn": "Pingdingshan",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "广元",
+    "cityAdmaster": "广元市",
+    "cityEn": "Guangyuan",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "广安",
+    "cityAdmaster": "广安市",
+    "cityEn": "Guang'an",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "广州",
+    "cityAdmaster": "广州市",
+    "cityEn": "Guangzhou",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 1"
+  },
+  {
+    "city": "庆阳",
+    "cityAdmaster": "庆阳市",
+    "cityEn": "Qingyang",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "廊坊",
+    "cityAdmaster": "廊坊市",
+    "cityEn": "Langfang",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "延安",
+    "cityAdmaster": "延安市",
+    "cityEn": "Yan'an",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "延边",
+    "cityAdmaster": "延边朝鲜族自治州",
+    "cityEn": "Yanbian",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "开封",
+    "cityAdmaster": "开封市",
+    "cityEn": "Kaifeng",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "张家口",
+    "cityAdmaster": "张家口市",
+    "cityEn": "Zhangjiakou",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "张家界",
+    "cityAdmaster": "张家界市",
+    "cityEn": "Zhangjiajie",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "张掖",
+    "cityAdmaster": "张掖市",
+    "cityEn": "Zhangye",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "徐州",
+    "cityAdmaster": "徐州市",
+    "cityEn": "Xuzhou",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "德宏",
+    "cityAdmaster": "德宏傣族景颇族自治州",
+    "cityEn": "Dehong",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "德州",
+    "cityAdmaster": "德州市",
+    "cityEn": "Dezhou",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "德阳",
+    "cityAdmaster": "德阳市",
+    "cityEn": "Deyang",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "忻州",
+    "cityAdmaster": "忻州市",
+    "cityEn": "Xinzhou",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "怀化",
+    "cityAdmaster": "怀化市",
+    "cityEn": "Huaihua",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "怒江",
+    "cityAdmaster": "怒江傈僳族自治州",
+    "cityEn": "Nujiang",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "恩施",
+    "cityAdmaster": "恩施土家族苗族自治州",
+    "cityEn": "Enshi",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "惠州",
+    "cityAdmaster": "惠州市",
+    "cityEn": "Huizhou",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "成都",
+    "cityAdmaster": "成都市",
+    "cityEn": "Chengdu",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "扬州",
+    "cityAdmaster": "扬州市",
+    "cityEn": "Yangzhou",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "承德",
+    "cityAdmaster": "承德市",
+    "cityEn": "Chengde",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "抚州",
+    "cityAdmaster": "抚州市",
+    "cityEn": "Fuzhou",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "抚顺",
+    "cityAdmaster": "抚顺市",
+    "cityEn": "Fushun",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "拉萨",
+    "cityAdmaster": "拉萨市",
+    "cityEn": "Lhasa",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "揭阳",
+    "cityAdmaster": "揭阳市",
+    "cityEn": "Jieyang",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "攀枝花",
+    "cityAdmaster": "攀枝花市",
+    "cityEn": "Panzhihua",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "文山",
+    "cityAdmaster": "文山壮族苗族自治州",
+    "cityEn": "Wenshan",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "新乡",
+    "cityAdmaster": "新乡市",
+    "cityEn": "Xinxiang",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "新余",
+    "cityAdmaster": "新余市",
+    "cityEn": "Xinyu",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "无锡",
+    "cityAdmaster": "无锡市",
+    "cityEn": "Wuxi",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "日喀则",
+    "cityAdmaster": "日喀则地区",
+    "cityEn": "Rikaze",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "日喀则",
+    "cityAdmaster": "日喀则市",
+    "cityEn": "Shigatse",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "日照",
+    "cityAdmaster": "日照市",
+    "cityEn": "Rizhao",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "昆明",
+    "cityAdmaster": "昆明市",
+    "cityEn": "Kunming",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "昌吉",
+    "cityAdmaster": "昌吉回族自治州",
+    "cityEn": "Changji",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "昌都",
+    "cityAdmaster": "昌都地区",
+    "cityEn": "Changdou",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "昌都",
+    "cityAdmaster": "昌都市",
+    "cityEn": "Chamdo",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "昭通",
+    "cityAdmaster": "昭通市",
+    "cityEn": "Zhaotong",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "晋中",
+    "cityAdmaster": "晋中市",
+    "cityEn": "Jinzhong",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "晋城",
+    "cityAdmaster": "晋城市",
+    "cityEn": "Jincheng",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "普洱",
+    "cityAdmaster": "普洱市",
+    "cityEn": "Pu'er",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "景德镇",
+    "cityAdmaster": "景德镇市",
+    "cityEn": "Jingdezhen",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "曲靖",
+    "cityAdmaster": "曲靖市",
+    "cityEn": "Qujing",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "朔州",
+    "cityAdmaster": "朔州市",
+    "cityEn": "Shuozhou",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "朝阳",
+    "cityAdmaster": "朝阳市",
+    "cityEn": "Chaoyang",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "本溪",
+    "cityAdmaster": "本溪市",
+    "cityEn": "Benxi",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "来宾",
+    "cityAdmaster": "来宾市",
+    "cityEn": "Laibin",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "杭州",
+    "cityAdmaster": "杭州市",
+    "cityEn": "Hangzhou",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "松原",
+    "cityAdmaster": "松原市",
+    "cityEn": "Songyuan",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "林芝",
+    "cityAdmaster": "林芝地区",
+    "cityEn": "Linzhi",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "林芝",
+    "cityAdmaster": "林芝市",
+    "cityEn": "Nyingchi",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "果洛",
+    "cityAdmaster": "果洛藏族自治州",
+    "cityEn": "Guoluo",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "枣庄",
+    "cityAdmaster": "枣庄市",
+    "cityEn": "Zaozhuang",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "柳州",
+    "cityAdmaster": "柳州市",
+    "cityEn": "Liuzhou",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "株洲",
+    "cityAdmaster": "株洲市",
+    "cityEn": "Zhuzhou",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "桂林",
+    "cityAdmaster": "桂林市",
+    "cityEn": "Guilin",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "梅州",
+    "cityAdmaster": "梅州市",
+    "cityEn": "Meizhou",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "梧州",
+    "cityAdmaster": "梧州市",
+    "cityEn": "Wuzhou",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "楚雄",
+    "cityAdmaster": "楚雄彝族自治州",
+    "cityEn": "Chuxiong",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "榆林",
+    "cityAdmaster": "榆林市",
+    "cityEn": "Yulin",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "武威",
+    "cityAdmaster": "武威市",
+    "cityEn": "Wuwei",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "武汉",
+    "cityAdmaster": "武汉市",
+    "cityEn": "Wuhan",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "毕节",
+    "cityAdmaster": "毕节地区",
+    "cityEn": "Bijie",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "毕节",
+    "cityAdmaster": "毕节市",
+    "cityEn": "Bijie",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "永州",
+    "cityAdmaster": "永州市",
+    "cityEn": "Yongzhou",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "汉中",
+    "cityAdmaster": "汉中市",
+    "cityEn": "Hanzhong",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "汕头",
+    "cityAdmaster": "汕头市",
+    "cityEn": "Shantou",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "汕尾",
+    "cityAdmaster": "汕尾市",
+    "cityEn": "Shanwei",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "江门",
+    "cityAdmaster": "江门市",
+    "cityEn": "Jiangmen",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "池州",
+    "cityAdmaster": "池州市",
+    "cityEn": "Chizhou",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "沈阳",
+    "cityAdmaster": "沈阳市",
+    "cityEn": "Shenyang",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "沧州",
+    "cityAdmaster": "沧州市",
+    "cityEn": "Cangzhou",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "河池",
+    "cityAdmaster": "河池市",
+    "cityEn": "Hechi",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "河源",
+    "cityAdmaster": "河源市",
+    "cityEn": "Heyuan",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "泉州",
+    "cityAdmaster": "泉州市",
+    "cityEn": "Quanzhou",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "泰安",
+    "cityAdmaster": "泰安市",
+    "cityEn": "Tai'an",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "泰州",
+    "cityAdmaster": "泰州市",
+    "cityEn": "Taizhou",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "泸州",
+    "cityAdmaster": "泸州市",
+    "cityEn": "Luzhou",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "洛阳",
+    "cityAdmaster": "洛阳市",
+    "cityEn": "Luoyang",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "济南",
+    "cityAdmaster": "济南市",
+    "cityEn": "Jinan",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "济宁",
+    "cityAdmaster": "济宁市",
+    "cityEn": "Jining",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "海东",
+    "cityAdmaster": "海东地区",
+    "cityEn": "Haidong",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "海东",
+    "cityAdmaster": "海东市",
+    "cityEn": "Haidong",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "海北",
+    "cityAdmaster": "海北藏族自治州",
+    "cityEn": "Haibei",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "海南",
+    "cityAdmaster": "海南藏族自治州",
+    "cityEn": "Hainan",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "海口",
+    "cityAdmaster": "海口市",
+    "cityEn": "Haikou",
+    "province": "海南",
+    "provinceEn": "Hainan",
+    "region": "South",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "海西",
+    "cityAdmaster": "海西蒙古族藏族自治州",
+    "cityEn": "Haixi",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "淄博",
+    "cityAdmaster": "淄博市",
+    "cityEn": "Zibo",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "淮北",
+    "cityAdmaster": "淮北市",
+    "cityEn": "Huaibei",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "淮南",
+    "cityAdmaster": "淮南市",
+    "cityEn": "Huainan",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "淮安",
+    "cityAdmaster": "淮南市",
+    "cityEn": "Huainan",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "深圳",
+    "cityAdmaster": "深圳市",
+    "cityEn": "Shenzhen",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 1"
+  },
+  {
+    "city": "清远",
+    "cityAdmaster": "清远市",
+    "cityEn": "Qingyuan",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "温州",
+    "cityAdmaster": "温州市",
+    "cityEn": "Wenzhou",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "渭南",
+    "cityAdmaster": "渭南市",
+    "cityEn": "Weinan",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "湖州",
+    "cityAdmaster": "湖州市",
+    "cityEn": "Huzhou",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "湘潭",
+    "cityAdmaster": "湘潭市",
+    "cityEn": "Xiangtan",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "湘西",
+    "cityAdmaster": "湘西土家族苗族自治州",
+    "cityEn": "Xiangxi",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "湛江",
+    "cityAdmaster": "湛江市",
+    "cityEn": "Zhanjiang",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "滁州",
+    "cityAdmaster": "滁州市",
+    "cityEn": "Chuzhou",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "滨州",
+    "cityAdmaster": "滨州市",
+    "cityEn": "Binzhou",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "漯河",
+    "cityAdmaster": "漯河市",
+    "cityEn": "Luohe",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "漳州",
+    "cityAdmaster": "漳州市",
+    "cityEn": "Zhangzhou",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "潍坊",
+    "cityAdmaster": "潍坊市",
+    "cityEn": "Weifang",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "潮州",
+    "cityAdmaster": "潮州市",
+    "cityEn": "Chaozhou",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "濮阳",
+    "cityAdmaster": "濮阳市",
+    "cityEn": "Puyang",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "烟台",
+    "cityAdmaster": "烟台市",
+    "cityEn": "Yantai",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "焦作",
+    "cityAdmaster": "焦作市",
+    "cityEn": "Jiaozuo",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "牡丹江",
+    "cityAdmaster": "牡丹江市",
+    "cityEn": "Mudanjiang",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "玉林",
+    "cityAdmaster": "玉林市",
+    "cityEn": "Yulin",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "玉树",
+    "cityAdmaster": "玉树藏族自治州",
+    "cityEn": "Yushu",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "玉溪",
+    "cityAdmaster": "玉溪市",
+    "cityEn": "Yuxi",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "珠海",
+    "cityAdmaster": "珠海市",
+    "cityEn": "Zhuhai",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "甘南",
+    "cityAdmaster": "甘南藏族自治州",
+    "cityEn": "Gannan",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "甘孜",
+    "cityAdmaster": "甘孜藏族自治州",
+    "cityEn": "Ganzi",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "白城",
+    "cityAdmaster": "白城市",
+    "cityEn": "Baicheng",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "白山",
+    "cityAdmaster": "白山市",
+    "cityEn": "Baishan",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "白银",
+    "cityAdmaster": "白银市",
+    "cityEn": "Baiyin",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "百色",
+    "cityAdmaster": "百色市",
+    "cityEn": "Baise",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "益阳",
+    "cityAdmaster": "益阳市",
+    "cityEn": "Yiyang",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "盐城",
+    "cityAdmaster": "盐城市",
+    "cityEn": "Yancheng",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "盘锦",
+    "cityAdmaster": "盘锦市",
+    "cityEn": "Panjin",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "眉山",
+    "cityAdmaster": "眉山市",
+    "cityEn": "Meishan",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "石嘴山",
+    "cityAdmaster": "石嘴山市",
+    "cityEn": "Shizuishan",
+    "province": "宁夏",
+    "provinceEn": "Ningxia",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "石家庄",
+    "cityAdmaster": "石家庄市",
+    "cityEn": "Shijiazhuang",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "福州",
+    "cityAdmaster": "福州市",
+    "cityEn": "Fuzhou",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "秦皇岛",
+    "cityAdmaster": "秦皇岛市",
+    "cityEn": "Qinhuangdao",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "红河",
+    "cityAdmaster": "红河哈尼族彝族自治州",
+    "cityEn": "Honghe",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "绍兴",
+    "cityAdmaster": "绍兴市",
+    "cityEn": "Shaoxing",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "绥化",
+    "cityAdmaster": "绥化市",
+    "cityEn": "Suihua",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "绵阳",
+    "cityAdmaster": "绵阳市",
+    "cityEn": "Mianyang",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "聊城",
+    "cityAdmaster": "聊城市",
+    "cityEn": "Liaocheng",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "肇庆",
+    "cityAdmaster": "肇庆市",
+    "cityEn": "Zhaoqing",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "自贡",
+    "cityAdmaster": "自贡市",
+    "cityEn": "Zigong",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "舟山",
+    "cityAdmaster": "舟山市",
+    "cityEn": "Zhoushan",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "芜湖",
+    "cityAdmaster": "芜湖市",
+    "cityEn": "Wuhu",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "苏州",
+    "cityAdmaster": "苏州市",
+    "cityEn": "Suzhou",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "茂名",
+    "cityAdmaster": "茂名市",
+    "cityEn": "Maoming",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "荆州",
+    "cityAdmaster": "荆州市",
+    "cityEn": "Jingzhou",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "荆门",
+    "cityAdmaster": "荆门市",
+    "cityEn": "Jingmen",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "莆田",
+    "cityAdmaster": "莆田市",
+    "cityEn": "Putian",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "莱芜",
+    "cityAdmaster": "莱芜市",
+    "cityEn": "Laiwu",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "菏泽",
+    "cityAdmaster": "菏泽市",
+    "cityEn": "Heze",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "萍乡",
+    "cityAdmaster": "萍乡市",
+    "cityEn": "Pingxiang",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "营口",
+    "cityAdmaster": "营口市",
+    "cityEn": "Yingkou",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "葫芦岛",
+    "cityAdmaster": "葫芦岛市",
+    "cityEn": "Huludao",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "蚌埠",
+    "cityAdmaster": "蚌埠市",
+    "cityEn": "Bengbu",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "衡水",
+    "cityAdmaster": "衡水市",
+    "cityEn": "Hengshui",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "衡阳",
+    "cityAdmaster": "衡阳市",
+    "cityEn": "Hengyang",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "衢州",
+    "cityAdmaster": "衢州市",
+    "cityEn": "Quzhou",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "襄樊",
+    "cityAdmaster": "襄樊市",
+    "cityEn": "Xiangfan",
+    "province": "湖北",
+    "provinceEn": "hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "西双版纳",
+    "cityAdmaster": "西双版纳傣族自治州",
+    "cityEn": "Xishuangbanna",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "西宁",
+    "cityAdmaster": "西宁市",
+    "cityEn": "Xining",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "西安",
+    "cityAdmaster": "西安市",
+    "cityEn": "Xi'an",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "许昌",
+    "cityAdmaster": "许昌市",
+    "cityEn": "Xuchang",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "贵港",
+    "cityAdmaster": "贵港市",
+    "cityEn": "Guigang",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "贵阳",
+    "cityAdmaster": "贵阳市",
+    "cityEn": "Guiyang",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "贺州",
+    "cityAdmaster": "贺州市",
+    "cityEn": "Hezhou",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "资阳",
+    "cityAdmaster": "资阳市",
+    "cityEn": "Ziyang",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "赣州",
+    "cityAdmaster": "赣州市",
+    "cityEn": "Ganzhou",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "赤峰",
+    "cityAdmaster": "赤峰市",
+    "cityEn": "Chifeng",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "辽源",
+    "cityAdmaster": "辽源市",
+    "cityEn": "Liaoyuan",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "辽阳",
+    "cityAdmaster": "辽阳市",
+    "cityEn": "Liaoyang",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "达州",
+    "cityAdmaster": "达州市",
+    "cityEn": "Dazhou",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "运城",
+    "cityAdmaster": "运城市",
+    "cityEn": "Yuncheng",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "连云港",
+    "cityAdmaster": "连云港市",
+    "cityEn": "Lianyungang",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "迪庆",
+    "cityAdmaster": "迪庆藏族自治州",
+    "cityEn": "Diqing",
+    "province": "云南",
+    "provinceEn": "Yunnan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "通化",
+    "cityAdmaster": "通化市",
+    "cityEn": "Tonghua",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "通辽",
+    "cityAdmaster": "通辽市",
+    "cityEn": "Tongliao",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "遂宁",
+    "cityAdmaster": "遂宁市",
+    "cityEn": "Suining",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "遵义",
+    "cityAdmaster": "遵义市",
+    "cityEn": "Zunyi",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "邢台",
+    "cityAdmaster": "邢台市",
+    "cityEn": "Xingtai",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "那曲",
+    "cityAdmaster": "那曲地区",
+    "cityEn": "Naqu",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "邯郸",
+    "cityAdmaster": "邯郸市",
+    "cityEn": "Handan",
+    "province": "河北",
+    "provinceEn": "Hebei",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "邵阳",
+    "cityAdmaster": "邵阳市",
+    "cityEn": "Shaoyang",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "郑州",
+    "cityAdmaster": "郑州市",
+    "cityEn": "Zhengzhou",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "郴州",
+    "cityAdmaster": "郴州市",
+    "cityEn": "Chenzhou",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "鄂尔多斯",
+    "cityAdmaster": "鄂尔多斯市",
+    "cityEn": "Ordos",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "鄂州",
+    "cityAdmaster": "鄂州市",
+    "cityEn": "Ezhou",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "酒泉",
+    "cityAdmaster": "酒泉市",
+    "cityEn": "Jiuquan",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "重庆",
+    "cityAdmaster": "重庆市",
+    "cityEn": "Chongqing",
+    "province": "重庆",
+    "provinceEn": "Chongqing",
+    "region": "West",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "金华",
+    "cityAdmaster": "金华市",
+    "cityEn": "Jinhua",
+    "province": "浙江",
+    "provinceEn": "Zhejiang",
+    "region": "East",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "金昌",
+    "cityAdmaster": "金昌市",
+    "cityEn": "Jinchang",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "钦州",
+    "cityAdmaster": "钦州市",
+    "cityEn": "Qinzhou",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "铁岭",
+    "cityAdmaster": "铁岭市",
+    "cityEn": "Tieling",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "铜仁",
+    "cityAdmaster": "铜仁地区",
+    "cityEn": "Tongren",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "铜仁",
+    "cityAdmaster": "铜仁市",
+    "cityEn": "Tongren",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "铜川",
+    "cityAdmaster": "铜川市",
+    "cityEn": "Tongchuan",
+    "province": "陕西",
+    "provinceEn": "Shanxi",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "铜陵",
+    "cityAdmaster": "铜陵市",
+    "cityEn": "Tongling",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "银川",
+    "cityAdmaster": "银川市",
+    "cityEn": "Yinchuan",
+    "province": "宁夏",
+    "provinceEn": "Ningxia",
+    "region": "West",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "锡林郭勒",
+    "cityAdmaster": "锡林郭勒盟",
+    "cityEn": "Linguolexi",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "锦州",
+    "cityAdmaster": "锦州市",
+    "cityEn": "Jinzhou",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "镇江",
+    "cityAdmaster": "镇江市",
+    "cityEn": "Zhenjiang",
+    "province": "江苏",
+    "provinceEn": "Jiangsu",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "长春",
+    "cityAdmaster": "长春市",
+    "cityEn": "Changchun",
+    "province": "吉林",
+    "provinceEn": "Jilin",
+    "region": "North",
+    "tier": "Tier 2"
+  },
+  {
+    "city": "长沙",
+    "cityAdmaster": "长沙市",
+    "cityEn": "Changsha",
+    "province": "湖南",
+    "provinceEn": "Hunan",
+    "region": "South",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "长治",
+    "cityAdmaster": "长治市",
+    "cityEn": "Changzhi",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阜新",
+    "cityAdmaster": "阜新市",
+    "cityEn": "Fuxin",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阜阳",
+    "cityAdmaster": "阜阳市",
+    "cityEn": "Fuyang",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "防城港",
+    "cityAdmaster": "防城港市",
+    "cityEn": "Fangchenggang",
+    "province": "广西",
+    "provinceEn": "Guangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阳江",
+    "cityAdmaster": "阳江市",
+    "cityEn": "Yangjiang",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阳泉",
+    "cityAdmaster": "阳泉市",
+    "cityEn": "Yangquan",
+    "province": "山西",
+    "provinceEn": "Shanxi",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阿克苏",
+    "cityAdmaster": "阿克苏地区",
+    "cityEn": "Akesu",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阿勒泰",
+    "cityAdmaster": "阿勒泰地区",
+    "cityEn": "Aletai",
+    "province": "新疆",
+    "provinceEn": "Xinjiang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阿坝",
+    "cityAdmaster": "阿坝藏族羌族自治州",
+    "cityEn": "Aba",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阿拉善盟",
+    "cityAdmaster": "阿拉善盟",
+    "cityEn": "Alashanmeng",
+    "province": "内蒙古",
+    "provinceEn": "Neimenggu",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "阿里",
+    "cityAdmaster": "阿里地区",
+    "cityEn": "Ali",
+    "province": "西藏",
+    "provinceEn": "Xizang",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "陇南",
+    "cityAdmaster": "陇南市",
+    "cityEn": "Longnan",
+    "province": "甘肃",
+    "provinceEn": "Gansu",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "随州",
+    "cityAdmaster": "随州市",
+    "cityEn": "Suizhou",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "雅安",
+    "cityAdmaster": "雅安市",
+    "cityEn": "Ya'an",
+    "province": "四川",
+    "provinceEn": "Sichuan",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "青岛",
+    "cityAdmaster": "青岛市",
+    "cityEn": "Qingdao",
+    "province": "山东",
+    "provinceEn": "Shandong",
+    "region": "North",
+    "tier": "new Tier 1"
+  },
+  {
+    "city": "鞍山",
+    "cityAdmaster": "鞍山市",
+    "cityEn": "Anshan",
+    "province": "辽宁",
+    "provinceEn": "Liaoning",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "韶关",
+    "cityAdmaster": "韶关市",
+    "cityEn": "Shaoguan",
+    "province": "广东",
+    "provinceEn": "Guangdong",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "马鞍山",
+    "cityAdmaster": "马鞍山市",
+    "cityEn": "Ma'anshan",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "驻马店",
+    "cityAdmaster": "驻马店市",
+    "cityEn": "Zhumadian",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "鸡西",
+    "cityAdmaster": "鸡西市",
+    "cityEn": "Jixi",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "鹤壁",
+    "cityAdmaster": "鹤壁市",
+    "cityEn": "Hebi",
+    "province": "河南",
+    "provinceEn": "Henan",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "鹤岗",
+    "cityAdmaster": "鹤岗市",
+    "cityEn": "Hegang",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "鹰潭",
+    "cityAdmaster": "鹰潭市",
+    "cityEn": "Yingtan",
+    "province": "江西",
+    "provinceEn": "Jiangxi",
+    "region": "South",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黄冈",
+    "cityAdmaster": "黄冈市",
+    "cityEn": "Huanggang",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黄南",
+    "cityAdmaster": "黄南藏族自治州",
+    "cityEn": "Huangnan",
+    "province": "青海",
+    "provinceEn": "Qinghai",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黄山",
+    "cityAdmaster": "黄山市",
+    "cityEn": "Huangshan",
+    "province": "安徽",
+    "provinceEn": "Anhui",
+    "region": "East",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黄石",
+    "cityAdmaster": "黄石市",
+    "cityEn": "Huangshi",
+    "province": "湖北",
+    "provinceEn": "Hubei",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黑河",
+    "cityAdmaster": "黑河市",
+    "cityEn": "Heihe",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黔东南",
+    "cityAdmaster": "黔东南苗族侗族自治州",
+    "cityEn": "Qiandongnan",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黔南",
+    "cityAdmaster": "黔南布依族苗族自治州",
+    "cityEn": "Qiannan",
+    "province": "贵州",
+    "provinceEn": "guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "黔西南",
+    "cityAdmaster": "黔西南布依族苗族自治州",
+    "cityEn": "Qianxinan",
+    "province": "贵州",
+    "provinceEn": "Guizhou",
+    "region": "West",
+    "tier": "Tier 5"
+  },
+  {
+    "city": "齐齐哈尔",
+    "cityAdmaster": "齐齐哈尔市",
+    "cityEn": "Qiqihar",
+    "province": "黑龙江",
+    "provinceEn": "Heilongjiang",
+    "region": "North",
+    "tier": "Tier 3"
+  },
+  {
+    "city": "龙岩",
+    "cityAdmaster": "龙岩市",
+    "cityEn": "Longyan",
+    "province": "福建",
+    "provinceEn": "Fujian",
+    "region": "East",
+    "tier": "Tier 3"
+  }
+]

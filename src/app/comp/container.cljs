@@ -9,11 +9,9 @@
             [reel.comp.reel :refer [comp-reel]]
             [respo-md.comp.md :refer [comp-md]]
             [app.config :refer [dev?]]
-            ["lorem-ipsum" :refer [LoremIpsum]]
             ["shortid" :as shortid]
-            [clojure.string :as string]))
-
-(def lorem (LoremIpsum. (clj->js {})))
+            [clojure.string :as string]
+            [app.generate :refer [gen-short gen-long]]))
 
 (defn expand-node [schema]
   (case (get schema "type")
@@ -26,15 +24,15 @@
                             (= k "createdAt") (.toISOString (js/Date.))
                             (= k "updatedAt") (.toISOString (js/Date.))
                             (= k "id") (.generate shortid)
-                            (= k "name") (.generateWords lorem 1)
-                            (= k "description") (.generateWords lorem (rand-int 4))
+                            (= k "name") (gen-short)
+                            (= k "description") (gen-long 24)
                             (string/ends-with? k "Id") (.generate shortid)
                             :else (expand-node child-schema))]))
                       (into {}))]
         (if (and (seq? (get data "result")) (number? (get data "total")))
           (assoc data "total" (count (get data "result")))
           data))
-    "string" (.generateWords lorem (rand-int 4))
+    "string" (gen-long (rand-int 4))
     "boolean" (> (rand) 0.5)
     "number" (rand-int 100)
     "integer" (rand-int 100)
