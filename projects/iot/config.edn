@@ -8,6 +8,8 @@
        {
          :path "devices"
          :get {:type :file, :file "devices.json"}
+         :post {:type :file, :file "ok.json"}
+         :put {:type :file, :file "ok.json"}
          :next [
            {
              :path "categories"
@@ -16,10 +18,11 @@
            {
              :path ":deviceId"
              :delete {:code 200, :type :file, :file "ok.json"}
+             :get {:type :file, :file "device.json"}
              :next [
                {
                  :path ":status"
-                 :post {:code 200, :type :file, :file "ok.json"}
+                 :put {:code 200, :type :file, :file "ok.json"}
                }
              ]
            }
