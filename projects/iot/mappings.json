@@ -1,0 +1,150 @@
+{
+  "total": 5,
+  "result": [
+    {
+      "readonly": false,
+      "reportType": "池州",
+      "id": "kaR2_BF5",
+      "name": "西双版纳",
+      "deviceConfig": {
+        "id": "aVSygOltc",
+        "deviceId": "HwFwfqWkJ",
+        "deviceCategoryModelId": "3VSgSZ5WL",
+        "protocol": "Yingkou 临沧",
+        "mappings": {
+          "dataType": "Chizhou",
+          "nodeId": "MT_8nhyBj",
+          "scalingFactor": 33,
+          "serverAddr": "Mianyang",
+          "dataLen": 90,
+          "instrumentAddr": "Guilin Jinan 丽水",
+          "registerAddr": "北京"
+        },
+        "createdAt": "2020-03-05T07:43:02.108Z",
+        "updatedAt": "2020-03-05T07:43:02.108Z"
+      },
+      "type": "Taizhou",
+      "varname": "Tianjin",
+      "unit": "阿勒泰 Weihai",
+      "intervalMsec": 11,
+      "description": "淄博 哈尔滨 山南 白城 芜湖 Mianyang 固原 Qiannan Pu'er Zhangjiakou Enshi Laiwu Changzhi 辽阳",
+      "categoryId": "rKB-d-ccE"
+    },
+    {
+      "readonly": false,
+      "reportType": "Liuzhou",
+      "id": "sY680jz9p",
+      "name": "Tonghua",
+      "deviceConfig": {
+        "id": "FOUNv4PNg",
+        "deviceId": "pSZ96HkeM",
+        "deviceCategoryModelId": "q2W1hNfk2",
+        "protocol": "Shenyang",
+        "mappings": {
+          "dataType": "阿拉善盟",
+          "nodeId": "G2ipahkab",
+          "scalingFactor": 85,
+          "serverAddr": "南阳 Lu'an",
+          "dataLen": 88,
+          "instrumentAddr": "楚雄",
+          "registerAddr": "阳泉 宿州"
+        },
+        "createdAt": "2020-03-05T07:43:02.111Z",
+        "updatedAt": "2020-03-05T07:43:02.111Z"
+      },
+      "type": "Zhenjiang",
+      "varname": "Sanya",
+      "unit": "普洱",
+      "intervalMsec": 38,
+      "description": "雅安",
+      "categoryId": "ed3lLIUej"
+    },
+    {
+      "readonly": true,
+      "reportType": "南阳",
+      "id": "Qd5R6c6Uj",
+      "name": "Guoluo",
+      "deviceConfig": {
+        "id": "H_8Et1OhO",
+        "deviceId": "Xyu1O7LY7",
+        "deviceCategoryModelId": "XnmK2KTO1",
+        "protocol": "Leshan",
+        "mappings": {
+          "dataType": "Jinzhong",
+          "nodeId": "-wBFAjFbrI",
+          "scalingFactor": 62,
+          "serverAddr": "盘锦",
+          "dataLen": 6,
+          "instrumentAddr": "南宁",
+          "registerAddr": "Ganzi Hegang"
+        },
+        "createdAt": "2020-03-05T07:43:02.112Z",
+        "updatedAt": "2020-03-05T07:43:02.112Z"
+      },
+      "type": "Beijing",
+      "varname": "Yan'an",
+      "unit": "郴州",
+      "intervalMsec": 50,
+      "description": "洛阳 淮安 厦门 阳江 太原 Guyuan 安康 乌海 Zhoukou 周口 Rizhao 肇庆",
+      "categoryId": "v8INMyRd_x"
+    },
+    {
+      "readonly": false,
+      "reportType": "Wenzhou",
+      "id": "_rBprtu5Yv",
+      "name": "Ziyang",
+      "deviceConfig": {
+        "id": "tZtBBeSmlG",
+        "deviceId": "FnGPb2kTvx",
+        "deviceCategoryModelId": "1gTxRaa0CW",
+        "protocol": "Chaohu 林芝",
+        "mappings": {
+          "dataType": "黄冈",
+          "nodeId": "elyrQPTi6F",
+          "scalingFactor": 7,
+          "serverAddr": "北海",
+          "dataLen": 0,
+          "instrumentAddr": "Haikou Qujing",
+          "registerAddr": "绵阳"
+        },
+        "createdAt": "2020-03-05T07:43:02.113Z",
+        "updatedAt": "2020-03-05T07:43:02.113Z"
+      },
+      "type": "Hangzhou",
+      "varname": "洛阳",
+      "unit": "克拉玛依",
+      "intervalMsec": 99,
+      "description": "南阳 Qinhuangdao Daxinganling Hanzhong",
+      "categoryId": "ezPj6i2ExW"
+    },
+    {
+      "readonly": false,
+      "reportType": "Guangzhou Weifang",
+      "id": "_CokDpNJlP",
+      "name": "盘锦",
+      "deviceConfig": {
+        "id": "y_nrnakV7o",
+        "deviceId": "t2i3Q_5fao",
+        "deviceCategoryModelId": "dZ-nSywlqn",
+        "protocol": "锡林郭勒 成都",
+        "mappings": {
+          "dataType": "邯郸",
+          "nodeId": "h-D-I5MKbv",
+          "scalingFactor": 89,
+          "serverAddr": "阿勒泰",
+          "dataLen": 69,
+          "instrumentAddr": "焦作",
+          "registerAddr": "延安"
+        },
+        "createdAt": "2020-03-05T07:43:02.114Z",
+        "updatedAt": "2020-03-05T07:43:02.114Z"
+      },
+      "type": "Mudanjiang",
+      "varname": "开封 Bijie",
+      "unit": "Shigatse",
+      "intervalMsec": 73,
+      "description": "Linyi 百色 揭阳 Zhumadian 石家庄 Hebi Hangzhou 朔州 Zhangzhou Shenyang Qiqihar 赣州 韶关 Ezhou Liaoyuan 廊坊 昌都 鸡西 Shaoyang 那曲 钦州",
+      "categoryId": "9Gvra7IVkC"
+    }
+  ]
+}

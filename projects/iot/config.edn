@@ -3,6 +3,10 @@
   :port 7800
   :routes [
     {
+      :path "users/me"
+      :get {:type :file :file "me.json"}
+    }
+    {
      :path "iot"
      :next [
        {
@@ -20,6 +24,10 @@
              :delete {:code 200, :type :file, :file "ok.json"}
              :get {:type :file, :file "device.json"}
              :next [
+               {
+                 :path "mappings"
+                 :get {:type :file, :file "mappings.json"}
+               }
                {
                  :path ":status"
                  :put {:code 200, :type :file, :file "ok.json"}
