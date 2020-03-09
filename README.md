@@ -11,7 +11,9 @@ Site http://fe.jimu.io/swagger-mon/
 
 [![Clojars Project](https://img.shields.io/clojars/v/jimengio/swagger-mon.svg)](https://clojars.org/jimengio/swagger-mon)
 
+```edn
 [jimengio/swagger-mon "0.0.1-a2"]
+```
 
 ```clojure
 (swagger-mon.core/gen-data schema-obj) ; returns json object

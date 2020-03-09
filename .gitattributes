@@ -1,3 +1,4 @@
 
 calcit.cirru  -diff
 yarn.lock -diff linguist-generated
+projects/*/*.json -diff linguist-generated
