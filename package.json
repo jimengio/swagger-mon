@@ -4,8 +4,8 @@
   "description": "ClojureScript workflow using Calcit Editor",
   "main": "index.js",
   "scripts": {
-    "m2": "clojure -A:depstar && clojure -A:install",
-    "deploy": "clojure -A:depstar && clojure -A:deploy",
+    "deploy": "clj -A:release",
+    "m2": "clj -A:release install",
     "watch": "shadow-cljs watch client",
     "serve": "http-server dist -s",
     "build-cdn": "shadow-cljs clj-run build.main/build-cdn",
@@ -21,8 +21,9 @@
   "author": "jiyinyiyong",
   "license": "MIT",
   "devDependencies": {
+    "copy-to-clipboard": "^3.3.1",
     "http-server": "^0.12.1",
-    "shadow-cljs": "^2.8.90"
+    "shadow-cljs": "^2.8.91"
   },
   "dependencies": {
     "feather-icons": "^4.26.0",

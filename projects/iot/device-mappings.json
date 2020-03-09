@@ -1,0 +1,175 @@
+{
+  "total": 5,
+  "result": [
+    {
+      "readonly": false,
+      "reportType": "盘锦",
+      "id": "sksqnykF",
+      "name": "嘉峪关",
+      "deviceConfig": {
+        "id": "Z3fD2dxDK",
+        "deviceId": "338VwqGBZ",
+        "deviceCategoryModelId": "q61S7_zpC",
+        "protocol": "ModbusTCP",
+        "modbusTCPConfig": {
+          "dataLen": 30,
+          "dataType": "昆明 伊春",
+          "serverAddr": "Changzhi",
+          "registerAddr": "Yongzhou",
+          "scalingFactor": 16,
+          "instrumentAddr": "Fuyang"
+        },
+        "opcUAConfig": {
+          "serverAddr": "朝阳",
+          "nodeId": "vWIO7KCE0",
+          "dataType": "Daqing 兴安盟",
+          "scalingFactor": "Xuchang"
+        },
+        "createdAt": "2020-03-06T10:39:02.445Z",
+        "updatedAt": "2020-03-06T10:39:02.445Z"
+      },
+      "type": "林芝 Shaoyang",
+      "varname": "陇南",
+      "unit": "泉州 朔州",
+      "intervalMsec": 57,
+      "description": "衡水 大庆 衡阳 Xiamen 遵义 Huanggang Hohhot Shannan Xinyu Huludao Zhaotong Dandong 玉溪 Qingyuan 安康 南阳 Lijiang",
+      "categoryId": "BufIi8IFk"
+    },
+    {
+      "readonly": true,
+      "reportType": "Wuhu",
+      "id": "tq7sJVHEB",
+      "name": "乐山",
+      "deviceConfig": {
+        "id": "q9sxBQmLj",
+        "deviceId": "Xz8b1zEp1",
+        "deviceCategoryModelId": "liOxqTNvi",
+        "protocol": "OpcUA",
+        "modbusTCPConfig": {
+          "dataLen": 91,
+          "dataType": "Xishuangbanna",
+          "serverAddr": "鸡西",
+          "registerAddr": "Dingxi",
+          "scalingFactor": 9,
+          "instrumentAddr": "亳州 昌都 崇左"
+        },
+        "opcUAConfig": {
+          "serverAddr": "张家口",
+          "nodeId": "r5q0WQswm",
+          "dataType": "Jiayuguan",
+          "scalingFactor": "银川"
+        },
+        "createdAt": "2020-03-06T10:39:02.450Z",
+        "updatedAt": "2020-03-06T10:39:02.450Z"
+      },
+      "type": "孝感 太原 上海",
+      "varname": "日喀则",
+      "unit": "海北",
+      "intervalMsec": 55,
+      "description": "Tonghua Bayinguoleng Shuangyashan Yuxi 衡水 Hengyang Linzhi 拉萨 Xianyang Qianxinan 滨州 绍兴 Baotou 厦门",
+      "categoryId": "HXCWetT0y"
+    },
+    {
+      "readonly": true,
+      "reportType": "Meizhou",
+      "id": "PkbOpUUBT",
+      "name": "鹤岗",
+      "deviceConfig": {
+        "id": "_z7oQ-P-f",
+        "deviceId": "DECox2uj0",
+        "deviceCategoryModelId": "r_4yaI6oc",
+        "protocol": "ModbusTCP",
+        "modbusTCPConfig": {
+          "dataLen": 2,
+          "dataType": "淮安",
+          "serverAddr": "平顶山",
+          "registerAddr": "临沂",
+          "scalingFactor": 59,
+          "instrumentAddr": "Anqing Yuncheng"
+        },
+        "opcUAConfig": {
+          "serverAddr": "Dingxi",
+          "nodeId": "BlfOp1weQl",
+          "dataType": "Ulanqab",
+          "scalingFactor": "Qingyuan 钦州"
+        },
+        "createdAt": "2020-03-06T10:39:02.451Z",
+        "updatedAt": "2020-03-06T10:39:02.451Z"
+      },
+      "type": "伊犁",
+      "varname": "天水 Yingkou",
+      "unit": "雅安",
+      "intervalMsec": 71,
+      "description": "宜宾 Tianshui Changsha 昌吉 延安 Qiandongnan Neijiang Bozhou 威海 Rikaze 开封 乐山 Shenyang 宿州 Bazhong 昆明 Chamdo Zhaotong Tianshui Danzhou",
+      "categoryId": "gPVaRWQTC2"
+    },
+    {
+      "readonly": true,
+      "reportType": "Qinhuangdao Liuzhou",
+      "id": "-FI_mwItgU",
+      "name": "恩施",
+      "deviceConfig": {
+        "id": "KnE023TUFB",
+        "deviceId": "My3CVn2Zbo",
+        "deviceCategoryModelId": "Y0gdG0Q1IY",
+        "protocol": "OpcUA",
+        "modbusTCPConfig": {
+          "dataLen": 67,
+          "dataType": "Boertala 阜新",
+          "serverAddr": "Shenyang",
+          "registerAddr": "毕节 Xuzhou",
+          "scalingFactor": 14,
+          "instrumentAddr": "Ningbo"
+        },
+        "opcUAConfig": {
+          "serverAddr": "嘉峪关",
+          "nodeId": "m_fsoiHmeB",
+          "dataType": "韶关",
+          "scalingFactor": "Nanping Songyuan"
+        },
+        "createdAt": "2020-03-06T10:39:02.453Z",
+        "updatedAt": "2020-03-06T10:39:02.453Z"
+      },
+      "type": "Dazhou",
+      "varname": "Suining Zhangzhou",
+      "unit": "黄石",
+      "intervalMsec": 90,
+      "description": "Shannan 庆阳 Yingtan Dingxi Yulin 钦州 延边 Heihe Yunfu Anyang Changji Zhengzhou",
+      "categoryId": "pdPgahyrUa"
+    },
+    {
+      "readonly": false,
+      "reportType": "Yili Datong 石家庄",
+      "id": "Wh1msNfHF3",
+      "name": "林芝",
+      "deviceConfig": {
+        "id": "d8aRGgaOWr",
+        "deviceId": "4IxkUdQar1",
+        "deviceCategoryModelId": "KyH0FYOBVK",
+        "protocol": "ModbusTCP",
+        "modbusTCPConfig": {
+          "dataLen": 39,
+          "dataType": "Chenzhou Shaoyang",
+          "serverAddr": "资阳",
+          "registerAddr": "台州",
+          "scalingFactor": 44,
+          "instrumentAddr": "北海"
+        },
+        "opcUAConfig": {
+          "serverAddr": "Huaihua",
+          "nodeId": "AnwebiE875",
+          "dataType": "Aletai",
+          "scalingFactor": "Cangzhou"
+        },
+        "createdAt": "2020-03-06T10:39:02.455Z",
+        "updatedAt": "2020-03-06T10:39:02.455Z"
+      },
+      "type": "Fuxin",
+      "varname": "昭通",
+      "unit": "Suzhou 泰州",
+      "intervalMsec": 5,
+      "description": "丽水 聊城 衡阳 日喀则 赤峰 Ya'an Nantong 商洛 Panzhihua 忻州 Laibin Zhaoqing 黔南 Ganzi Zhumadian",
+      "categoryId": "2K286i1LES"
+    }
+  ]
+}
