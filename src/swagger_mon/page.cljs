@@ -1,12 +1,12 @@
 
-(ns app.page
+(ns swagger-mon.page
   (:require [respo.render.html :refer [make-string]]
             [shell-page.core :refer [make-page spit slurp]]
-            [app.comp.container :refer [comp-container]]
-            [app.schema :as schema]
+            [swagger-mon.comp.container :refer [comp-container]]
+            [swagger-mon.schema :as schema]
             [reel.schema :as reel-schema]
             [cljs.reader :refer [read-string]]
-            [app.config :as config]
+            [swagger-mon.config :as config]
             [cumulo-util.build :refer [get-ip!]])
   (:require-macros [clojure.core.strint :refer [<<]]))
 

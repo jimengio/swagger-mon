@@ -1,5 +1,5 @@
 
-(ns app.config )
+(ns swagger-mon.config )
 
 (def cdn?
   (cond

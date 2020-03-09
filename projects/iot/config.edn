@@ -11,7 +11,7 @@
      :next [
        {
          :path "devices"
-         :get {:type :file, :file "devices.json"}
+         :get {:type :file, :file "devices.json" }
          :post {:type :file, :file "ok.json"}
          :put {:type :file, :file "ok.json"}
          :next [
@@ -25,8 +25,17 @@
              :get {:type :file, :file "device.json"}
              :next [
                {
-                 :path "mappings"
-                 :get {:type :file, :file "mappings.json"}
+                 :path "dataModel/:id",
+                 :next [
+                   {
+                     :path "mappingConfigs"
+                     :post {:type :file :file "ok.json"}
+                   }
+                 ]
+               }
+               {
+                 :path "mappingConfigs"
+                 :get {:type :file, :file "device-mappings.json"}
                }
                {
                  :path ":status"

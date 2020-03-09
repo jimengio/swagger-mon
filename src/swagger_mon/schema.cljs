@@ -1,4 +1,4 @@
 
-(ns app.schema )
+(ns swagger-mon.schema )
 
 (def store {:states {}, :content ""})

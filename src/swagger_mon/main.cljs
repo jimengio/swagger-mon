@@ -1,14 +1,14 @@
 
-(ns app.main
+(ns swagger-mon.main
   (:require [respo.core :refer [render! clear-cache! realize-ssr!]]
-            [app.comp.container :refer [comp-container]]
-            [app.updater :refer [updater]]
-            [app.schema :as schema]
+            [swagger-mon.comp.container :refer [comp-container]]
+            [swagger-mon.updater :refer [updater]]
+            [swagger-mon.schema :as schema]
             [reel.util :refer [listen-devtools!]]
             [reel.core :refer [reel-updater refresh-reel]]
             [reel.schema :as reel-schema]
             [cljs.reader :refer [read-string]]
-            [app.config :as config]
+            [swagger-mon.config :as config]
             [cumulo-util.core :refer [repeat!]]))
 
 (defonce *reel
