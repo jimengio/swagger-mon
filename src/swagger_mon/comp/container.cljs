@@ -10,7 +10,8 @@
             [respo-md.comp.md :refer [comp-md]]
             [swagger-mon.config :refer [dev?]]
             [clojure.string :as string]
-            [swagger-mon.core :refer [gen-code]]))
+            [swagger-mon.core :refer [gen-data]]
+            ["copy-to-clipboard" :as copy!]))
 
 (defcomp
  comp-container
@@ -21,12 +22,21 @@
    (div
     {:style (merge ui/global ui/fullscreen ui/column)}
     (div
-     {:style (merge ui/row-parted {:padding 4})}
+     {:style (merge ui/row-parted {:padding 8})}
      (span nil)
-     (button
-      {:inner-text "Gen",
-       :style ui/button,
-       :on-click (fn [e d! m!] (m! (assoc state :code (gen-code (:schema state)))))}))
+     (div
+      {}
+      (button
+       {:inner-text "Gen & copy",
+        :style ui/button,
+        :on-click (fn [e d! m!]
+          (let [data-code (js/JSON.stringify (gen-data (js/JSON.parse (:schema state))) nil 2)]
+            (m!
+             (merge
+              state
+              {:code data-code,
+               :schema (js/JSON.stringify (js/JSON.parse (:schema state)) nil 2)}))
+            (copy! data-code)))})))
     (div
      {:style (merge ui/expand ui/row)}
      (textarea

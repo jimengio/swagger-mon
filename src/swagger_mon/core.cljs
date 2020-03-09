@@ -6,6 +6,11 @@
 
 (def cities-data (js->clj (js/JSON.parse (inline "cities.json")) :keywordize-keys true))
 
+(defn gen-ip-address []
+  (let [ip (->> (range 4) (map (fn [] (rand-int 256))) (string/join "."))
+        need-port? (> (rand) 0.5)]
+    (if need-port? (str ip ":" (rand-int 65536)) ip)))
+
 (defn gen-long [n]
   (->> (range (inc (rand-int n)))
        (map
@@ -30,6 +35,7 @@
                             (= k "name") (gen-short)
                             (= k "description") (gen-long 24)
                             (string/ends-with? k "Id") (.generate shortid)
+                            (string/ends-with? k "Addr") (gen-ip-address)
                             :else (expand-node child-schema))]))
                       (into {}))]
         (if (and (seq? (get data "result")) (number? (get data "total")))
@@ -42,6 +48,5 @@
     "array" (->> (range (rand-int 6)) (map (fn [idx] (expand-node (get schema "items")))))
     (do (js/console.warn "Unknown schema:" schema) schema)))
 
-(defn gen-code [schema-text]
-  (let [schema (js->clj (js/JSON.parse schema-text)), data (expand-node schema)]
-    (js/JSON.stringify (clj->js data) nil 2)))
+(defn gen-data [schema-obj]
+  (let [schema (js->clj schema-obj), data (expand-node schema)] (clj->js data)))
