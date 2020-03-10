@@ -44,5 +44,5 @@ button:active {
 }
 
 .hover-item:hover {
-  color: hsl(0,0%,40%);
+  color: hsl(0,0%,20%);
 }

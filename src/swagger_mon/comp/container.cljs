@@ -93,29 +93,29 @@
    (div
     {:style (merge ui/global ui/fullscreen ui/column)}
     (comp-nav (:router store))
-    (div
-     {:style (merge ui/expand ui/column)}
-     (div
-      {:style (merge ui/row-parted {:padding 8})}
-      (span nil)
+    (case (:name router)
+      :random (cursor-> :random comp-random-list states)
       (div
-       {}
-       (button
-        {:inner-text "Gen & copy",
-         :style ui/button,
-         :on-click (fn [e d! m!]
-           (let [data-code (js/JSON.stringify
-                            (gen-data (js/JSON.parse (:schema state)))
-                            nil
-                            2)]
-             (m!
-              (merge
-               state
-               {:code data-code,
-                :schema (js/JSON.stringify (js/JSON.parse (:schema state)) nil 2)}))
-             (copy! data-code)))})))
-     (case (:name router)
-       :random (cursor-> :random comp-random-list states)
+       {:style (merge ui/expand ui/column)}
+       (div
+        {:style (merge ui/row-parted {:padding 8})}
+        (span nil)
+        (div
+         {}
+         (button
+          {:inner-text "Gen & copy",
+           :style ui/button,
+           :on-click (fn [e d! m!]
+             (let [data-code (js/JSON.stringify
+                              (gen-data (js/JSON.parse (:schema state)))
+                              nil
+                              2)]
+               (m!
+                (merge
+                 state
+                 {:code data-code,
+                  :schema (js/JSON.stringify (js/JSON.parse (:schema state)) nil 2)}))
+               (copy! data-code)))})))
        (div
         {:style (merge ui/expand ui/row)}
         (textarea
