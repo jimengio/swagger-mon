@@ -48,5 +48,25 @@
     "array" (->> (range (rand-int 6)) (map (fn [idx] (expand-node (get schema "items")))))
     (do (js/console.warn "Unknown schema:" schema) schema)))
 
+(defn gen-chinese-words [n spaced?]
+  (->> (range n)
+       (map (fn [] (let [city (rand-nth cities-data)] (:city city))))
+       (string/join (if spaced? " " ""))))
+
 (defn gen-data [schema-obj]
   (let [schema (js->clj schema-obj), data (expand-node schema)] (clj->js data)))
+
+(defn gen-digits [n] (->> (range n) (map (fn [] (str (rand-int 9)))) (string/join "")))
+
+(defn gen-english-words [n]
+  (->> (range n)
+       (map (fn [] (let [city (rand-nth cities-data)] (:cityEn city))))
+       (string/join " ")))
+
+(defn gen-lowercase [n]
+  (->> (range n) (js/String.fromCharCode (rand-nth (range 97 123))) (string/join "")))
+
+(defn gen-uppercase [n]
+  (->> (range n)
+       (map (fn [] (js/String.fromCharCode (rand-nth (range 65 91)))))
+       (string/join "")))
