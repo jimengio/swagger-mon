@@ -69,7 +69,7 @@
                                    :font-family ui/font-code,
                                    :cursor :pointer}),
                           :class-name "hover-item",
-                          :on-click (fn [e d! m!] (m! (assoc state :copied x)))}
+                          :on-click (fn [e d! m!] (m! (assoc state :copied x)) (copy! x))}
                          (<> x))))]
      (div
       {:style (merge ui/expand {:padding 40})}
@@ -81,15 +81,16 @@
          :on-click (fn [e d! m!] (m! (update state :count inc)))})
        (=< 8 nil)
        (if (some? (:copied state))
-         (<>
-          (str "Copied " (:copied state))
-          {:color (hsl 0 0 60),
-           :display :inline-block,
-           :max-width 400,
-           :white-space :nowrap,
-           :overflow :hidden,
-           :text-overflow :ellipsis,
-           :font-family ui/font-fancy})))
+         (span
+          {:style (merge ui/row-middle {:color (hsl 0 0 60), :font-family ui/font-fancy})}
+          (<>
+           (str "Copied " (:copied state))
+           {:max-width 400,
+            :display :inline-block,
+            :white-space :nowrap,
+            :overflow :hidden,
+            :text-overflow :ellipsis})
+          (<> (str " (" (count (:copied state)) " characters)")))))
       (render-line (str (gen-uppercase 3) "-" (gen-uppercase 3) "-" (gen-digits 3)))
       (render-line (gen-chinese-words 1 false))
       (render-line (gen-english-words 1))
