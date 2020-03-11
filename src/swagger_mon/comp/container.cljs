@@ -10,7 +10,16 @@
             [respo-md.comp.md :refer [comp-md]]
             [swagger-mon.config :refer [dev?]]
             [clojure.string :as string]
-            [swagger-mon.core :refer [gen-data gen-short gen-long gen-ip-address]]
+            [swagger-mon.core
+             :refer
+             [gen-data
+              gen-short
+              gen-long
+              gen-ip-address
+              gen-uppercase
+              gen-digits
+              gen-chinese-words
+              gen-english-words]]
             ["copy-to-clipboard" :as copy!]
             ["shortid" :as shortid]
             [cumulo-util.core :refer [delay!]]))
@@ -43,7 +52,16 @@
  (let [state (or (:data states) {:count 0, :copied nil})]
    (let [render-line (fn [x]
                        (div
-                        {:style (merge ui/row {:padding 8})}
+                        {:style (merge ui/row-middle {:padding "8px 0"})}
+                        (<>
+                         (str (count (str x)))
+                         {:width 40,
+                          :display :inline-block,
+                          :font-family ui/font-code,
+                          :font-size 12,
+                          :color (hsl 0 0 80),
+                          :text-align :right,
+                          :margin-right 16})
                         (div
                          {:style (merge
                                   ui/expand
@@ -65,23 +83,27 @@
        (if (some? (:copied state))
          (<>
           (str "Copied " (:copied state))
-          {:color (hsl 0 0 80),
+          {:color (hsl 0 0 60),
            :display :inline-block,
            :max-width 400,
            :white-space :nowrap,
            :overflow :hidden,
            :text-overflow :ellipsis,
            :font-family ui/font-fancy})))
-      (render-line (gen-short))
-      (render-line (gen-long 2))
-      (render-line (gen-long 4))
-      (render-line (gen-long 10))
-      (render-line (gen-long 40))
-      (render-line (rand 100))
+      (render-line (str (gen-uppercase 3) "-" (gen-uppercase 3) "-" (gen-digits 3)))
+      (render-line (gen-chinese-words 1 false))
+      (render-line (gen-english-words 1))
+      (render-line (gen-chinese-words 4 false))
+      (render-line (gen-chinese-words 3 true))
+      (render-line (gen-english-words 3))
+      (render-line (gen-uppercase 10))
+      (render-line (gen-long 20))
+      (render-line (gen-long 100))
       (render-line (rand-int 100))
+      (render-line (gen-digits 10))
+      (render-line (.generate shortid))
       (render-line (gen-ip-address))
-      (render-line (.toISOString (js/Date.)))
-      (render-line (.generate shortid))))))
+      (render-line (.toISOString (js/Date.)))))))
 
 (defcomp
  comp-container
