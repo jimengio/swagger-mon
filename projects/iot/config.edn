@@ -17,7 +17,7 @@
          :next [
            {
              :path "categories"
-             :get {:type :file, :file "categories.json"}
+             :get {:type :file, :file "empty-list.json"}
            }
            {
              :path ":deviceId"
