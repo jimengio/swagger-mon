@@ -5,6 +5,12 @@
     {
       :path "users/me"
       :get {:type :file :file "me.json"}
+      :next [
+        {
+          :path "apps/:id/permissions/codes"
+          :get {:type :file, :file "empty-permission.json"}
+        }
+      ]
     }
     {
      :path "iot"

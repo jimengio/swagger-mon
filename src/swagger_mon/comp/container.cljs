@@ -92,6 +92,18 @@
             :text-overflow :ellipsis})
           (<> (str " (" (count (:copied state)) " characters)")))))
       (render-line (str (gen-uppercase 3) "-" (gen-uppercase 3) "-" (gen-digits 3)))
+      (render-line
+       (str (gen-uppercase 4) "-" (gen-uppercase 4) "-" (gen-digits 2) (gen-uppercase 1)))
+      (render-line (str (gen-uppercase 6) "_" (gen-uppercase 4) "_" (gen-digits 1)))
+      (render-line
+       (str
+        (gen-chinese-words 2 false)
+        "-"
+        (gen-chinese-words 1 false)
+        "-"
+        (gen-chinese-words 1 false)))
+      (render-line
+       (str (gen-chinese-words 2 false) "-" (gen-chinese-words 1 false) "-" (gen-digits 2)))
       (render-line (gen-chinese-words 1 false))
       (render-line (gen-english-words 1))
       (render-line (gen-chinese-words 4 false))
