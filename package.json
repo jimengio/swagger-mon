@@ -23,7 +23,7 @@
   "devDependencies": {
     "copy-to-clipboard": "^3.3.1",
     "http-server": "^0.12.1",
-    "shadow-cljs": "^2.8.91"
+    "shadow-cljs": "^2.8.93"
   },
   "dependencies": {
     "feather-icons": "^4.26.0",
