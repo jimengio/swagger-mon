@@ -45,15 +45,24 @@
     "/favicon.ico" {:code 200, :body "{}"}
     (let [matched-path (find-match-path
                         (get-pathname (:url req))
-                        (keys (get @*swagger-file "paths")))]
+                        (keys (get @*swagger-file "paths")))
+          cors-header {"Access-Control-Allow-Credentials" true,
+                       "Access-Control-Allow-Origin" (:origin (:headers req)),
+                       :Content-Type "application/json"}]
       (if (nil? matched-path)
-        {:code 404, :body (in-json {:message (str "not found path " (:url req))})}
+        {:code 404,
+         :headers cors-header,
+         :body (in-json {:message (str "not found path " (:url req))})}
         (let [get-schema (get-in
                           @*swagger-file
                           ["paths" matched-path "get" "responses" "200"])]
           (if (nil? get-schema)
-            {:code 400, :body (in-json {:message "Found no get of this Path"})}
-            {:code 200, :body (in-json (expand-node (get get-schema "schema")))}))))))
+            {:code 400,
+             :headers cors-header,
+             :body (in-json {:message "Found no get of this Path"})}
+            {:code 200,
+             :headers cors-header,
+             :body (in-json (expand-node (get get-schema "schema")))}))))))
 
 (defn main! []
   (skir/create-server!
