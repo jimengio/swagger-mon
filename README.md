@@ -46,6 +46,20 @@ Generate data with random values:
 
 Mock strings are based on https://github.com/brightgems/china_city_dataset .
 
+### CLI
+
+```bash
+yarn global add @jimengio/swagger-mon
+```
+
+Then run command `swagger-api.json`:
+
+```bash
+# prepare a swagger-api.json first!
+
+PORT=7801 swagger-mon # read...
+```
+
 ### Workflow
 
 Workflow https://github.com/mvc-works/calcit-workflow
