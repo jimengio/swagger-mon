@@ -7,6 +7,10 @@
       :get {:type :file :file "docs.json"}
       :next [
         {
+          :path "directories"
+          :get {:type :file, :file "directories.json"}
+        }
+        {
           :path ":id"
           :get {:type :file, :file "doc-item.json"}
           :next [
