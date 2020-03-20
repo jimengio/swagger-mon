@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "documentId": "GX4bIBYW5",
+      "createdAt": "2020-03-19T11:43:27.128Z",
+      "id": "tx26Ed6IIb",
+      "name": "Huaibei",
+      "userInfo": {
+        "id": "xaxaJcfD3b",
+        "name": "锦州"
+      },
+      "userId": "wVvp9WeQ05",
+      "deleted": true,
+      "state": 37,
+      "version": "茂名",
+      "size": 31,
+      "publishedAt": "Jiujiang"
+    },
+    {
+      "documentId": "teHj-wFHit",
+      "createdAt": "2020-03-19T11:43:27.129Z",
+      "id": "nrGdEW1JJr",
+      "name": "吕梁",
+      "userInfo": {
+        "id": "rPn6AzEdgu",
+        "name": "鹤岗"
+      },
+      "userId": "guxpGQskmJ",
+      "deleted": true,
+      "state": 9,
+      "version": "金昌",
+      "size": 80,
+      "publishedAt": "玉树"
+    },
+    {
+      "documentId": "Xm38-xveNP",
+      "createdAt": "2020-03-19T11:43:27.129Z",
+      "id": "FyDuKcZj8y",
+      "name": "山南",
+      "userInfo": {
+        "id": "ol4gnESoAG",
+        "name": "Dezhou"
+      },
+      "userId": "i0qg7M1hOE",
+      "deleted": true,
+      "state": 39,
+      "version": "Liaocheng",
+      "size": 54,
+      "publishedAt": "黔南"
+    },
+    {
+      "documentId": "sXmwUR-vZa",
+      "createdAt": "2020-03-19T11:43:27.130Z",
+      "id": "abyPhGzAcK",
+      "name": "莆田",
+      "userInfo": {
+        "id": "gWvrcVrYs3",
+        "name": "拉萨"
+      },
+      "userId": "sO2cYIxOZL",
+      "deleted": true,
+      "state": 41,
+      "version": "Jiaozuo",
+      "size": 69,
+      "publishedAt": "Aletai"
+    },
+    {
+      "documentId": "3a_qpAHM2SW",
+      "createdAt": "2020-03-19T11:43:27.130Z",
+      "id": "3HryI2V6qs5",
+      "name": "Zhangjiakou",
+      "userInfo": {
+        "id": "bJftIP9P14G",
+        "name": "乌海"
+      },
+      "userId": "N7uOfWYyO6S",
+      "deleted": false,
+      "state": 93,
+      "version": "Yuncheng 青岛 乌海",
+      "size": 99,
+      "publishedAt": "镇江"
+    }
+  ],
+  "total": 5
+}

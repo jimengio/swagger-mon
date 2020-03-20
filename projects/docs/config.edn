@@ -1,0 +1,26 @@
+
+{
+  :port 7800
+  :routes [
+    {
+      :path "documents"
+      :get {:type :file :file "docs.json"}
+      :next [
+        {
+          :path ":id"
+          :get {:type :file, :file "doc-item.json"}
+          :next [
+            {
+              :path "histories"
+              :get {:type :file, :file "histories.json"}
+            }
+            {
+              :path "versions"
+              :get {:type :file, :file "versions.json"}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

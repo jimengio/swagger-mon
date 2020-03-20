@@ -1,0 +1,105 @@
+{
+  "result": [
+    {
+      "updatedAt": "2020-03-19T11:42:26.137Z",
+      "operatedAt": "潮州",
+      "createdAt": "2020-03-19T11:42:26.137Z",
+      "directoryId": "8IAqFHhvD",
+      "categoryInfo": {
+        "id": "gVl7LOQC_t",
+        "name": "Tieling"
+      },
+      "id": "-zIo2VNfNc",
+      "name": "太原",
+      "directoryInfo": {
+        "id": "PCOpfFIDZj",
+        "name": "Suqian"
+      },
+      "userInfo": {
+        "id": "G-EH9d4TQl",
+        "name": "Yangquan"
+      },
+      "userId": "cowc0_3zrs",
+      "deleted": true,
+      "isPublished": false,
+      "code": "新余",
+      "categoryId": "e8tGWuwhVg"
+    },
+    {
+      "updatedAt": "2020-03-19T11:42:26.139Z",
+      "operatedAt": "Longnan",
+      "createdAt": "2020-03-19T11:42:26.139Z",
+      "directoryId": "E-TH5fwbw-",
+      "categoryInfo": {
+        "id": "l9KJrMJIzg",
+        "name": "Kaifeng"
+      },
+      "id": "mVVp-X4_nk",
+      "name": "张掖",
+      "directoryInfo": {
+        "id": "UbpwLgFfec",
+        "name": "眉山"
+      },
+      "userInfo": {
+        "id": "iM_8vl40aW",
+        "name": "咸宁"
+      },
+      "userId": "eAAExBKJCi",
+      "deleted": true,
+      "isPublished": false,
+      "code": "Alashanmeng 宜宾 昆明",
+      "categoryId": "QDWVHpeJJt"
+    },
+    {
+      "updatedAt": "2020-03-19T11:42:26.140Z",
+      "operatedAt": "西宁",
+      "createdAt": "2020-03-19T11:42:26.140Z",
+      "directoryId": "5FJVoq1Eo-",
+      "categoryInfo": {
+        "id": "Nu96noYzSM",
+        "name": "Chenzhou"
+      },
+      "id": "zqypDZ8Iorg",
+      "name": "汕尾",
+      "directoryInfo": {
+        "id": "vtXOu-xNTY5",
+        "name": "Hetian"
+      },
+      "userInfo": {
+        "id": "oEj7oqvphZe",
+        "name": "Quzhou"
+      },
+      "userId": "bD0YPVvjQK9",
+      "deleted": true,
+      "isPublished": false,
+      "code": "Suqian 鄂尔多斯",
+      "categoryId": "9mOwgWmwf_p"
+    },
+    {
+      "updatedAt": "2020-03-19T11:42:26.141Z",
+      "operatedAt": "那曲",
+      "createdAt": "2020-03-19T11:42:26.141Z",
+      "directoryId": "0QQqXDN7yMI",
+      "categoryInfo": {
+        "id": "rR7bV68HOxH",
+        "name": "Zhangye"
+      },
+      "id": "ZrVKUrUfDME",
+      "name": "西双版纳",
+      "directoryInfo": {
+        "id": "uo3tLoMTmbq",
+        "name": "廊坊"
+      },
+      "userInfo": {
+        "id": "vqsDY9qGPuC",
+        "name": "辽源"
+      },
+      "userId": "EfFvA8_Esyv",
+      "deleted": false,
+      "isPublished": true,
+      "code": "金华 Hangzhou",
+      "categoryId": "lY7QyE2FXPK"
+    }
+  ],
+  "total": 4
+}
