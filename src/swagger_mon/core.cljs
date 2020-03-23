@@ -51,8 +51,9 @@
                        (fn [[k child-schema]]
                          [k
                           (cond
-                            (= k "createdAt") (.toISOString (js/Date.))
-                            (= k "updatedAt") (.toISOString (js/Date.))
+                            (string/ends-with? k "At") (.toISOString (js/Date.))
+                            (string/ends-with? k "From") (.toISOString (js/Date.))
+                            (string/ends-with? k "To") (.toISOString (js/Date.))
                             (= k "id") (.generate shortid)
                             (= k "name") (gen-short)
                             (= k "description") (gen-long 32)
