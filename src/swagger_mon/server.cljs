@@ -41,34 +41,49 @@
 (defn in-json [x] (js/JSON.stringify (clj->js x) nil 2))
 
 (defn on-request! [req]
-  (case (:url req)
-    "/favicon.ico" {:code 200, :body "{}"}
-    (let [matched-path (find-match-path
-                        (get-pathname (:url req))
-                        (keys (get @*swagger-file "paths")))
-          cors-header {"Access-Control-Allow-Credentials" true,
-                       "Access-Control-Allow-Origin" (:origin (:headers req)),
-                       :Content-Type "application/json"}]
-      (if (nil? matched-path)
-        {:code 404,
-         :headers cors-header,
-         :body (in-json {:message (str "not found path " (:url req))})}
-        (let [get-schema (get-in
-                          @*swagger-file
-                          ["paths" matched-path "get" "responses" "200"])]
-          (if (nil? get-schema)
-            {:code 400,
-             :headers cors-header,
-             :body (in-json {:message "Found no get of this Path"})}
-            {:code 200,
-             :headers cors-header,
-             :body (in-json (expand-node (get get-schema "schema")))}))))))
+  (let [method (:method req)]
+    (case (:url req)
+      "/favicon.ico" {:code 200, :body "{}"}
+      "/"
+        {:code 200,
+         :body (in-json
+                (let [modified-time (.-mtime (fs/statSync "swagger-api.json"))]
+                  {:last-modify modified-time,
+                   :last-upload-time (.toLocaleString
+                                      (js/Date. modified-time)
+                                      "zh-CN"
+                                      (clj->js {"timeZone" "Asia/Shanghai"})),
+                   :message "mock server generated from swagger",
+                   :available-apis (let [paths (get @*swagger-file "paths")]
+                     (->> paths
+                          (map (fn [[k item]] [k (string/join " " (keys item))]))
+                          (into {})))}))}
+      (let [matched-path (find-match-path
+                          (get-pathname (:url req))
+                          (keys (get @*swagger-file "paths")))
+            cors-header {"Access-Control-Allow-Credentials" true,
+                         "Access-Control-Allow-Origin" (:origin (:headers req)),
+                         :Content-Type "application/json"}]
+        (if (nil? matched-path)
+          {:code 404,
+           :headers cors-header,
+           :body (in-json {:message (str "not found path " (:url req))})}
+          (let [get-schema (get-in
+                            @*swagger-file
+                            ["paths" matched-path (name method) "responses" "200"])]
+            (if (nil? get-schema)
+              {:code 400,
+               :headers cors-header,
+               :body (in-json {:message "Found no get of this Path"})}
+              {:code 200,
+               :headers cors-header,
+               :body (in-json (expand-node (get get-schema "schema")))})))))))
 
 (defn main! []
   (skir/create-server!
    #(on-request! %)
    {:port (let [user-port js/process.env.PORT]
       (if (some? user-port) (js/parseInt user-port) 7801))})
-  (js/setInterval (fn [] (read-swagger!)) (* 1000 30)))
+  (js/setInterval (fn [] (reset! *swagger-file (read-swagger!))) (* 1000 30)))
 
 (defn reload! [] (println "reloaded"))
