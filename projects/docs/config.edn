@@ -11,6 +11,10 @@
           :get {:type :file, :file "directories.json"}
         }
         {
+          :path "categories"
+          :get {:type :file, :file "categories.json"}
+        }
+        {
           :path ":id"
           :get {:type :file, :file "doc-item.json"}
           :next [
