@@ -1,9 +1,9 @@
 
-(ns swagger-mon.updater (:require [respo.cursor :refer [mutate]]))
+(ns swagger-mon.updater (:require [respo.cursor :refer [update-states]]))
 
 (defn updater [store op op-data op-id op-time]
   (case op
-    :states (update store :states (mutate op-data))
+    :states (update-states store op-data)
     :content (assoc store :content op-data)
     :router (assoc store :router op-data)
     :hydrate-storage op-data
