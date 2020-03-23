@@ -4,7 +4,7 @@
             [respo-ui.core :as ui]
             [respo.core
              :refer
-             [defcomp defeffect cursor-> list-> <> div button textarea span input]]
+             [defcomp defeffect >> list-> <> div button textarea span input]]
             [respo.comp.space :refer [=<]]
             [reel.comp.reel :refer [comp-reel]]
             [respo-md.comp.md :refer [comp-md]]
@@ -49,7 +49,7 @@
 (defcomp
  comp-random-list
  (states)
- (let [state (or (:data states) {:count 0, :copied nil})]
+ (let [cursor (:cursor states), state (or (:data states) {:count 0, :copied nil})]
    (let [render-line (fn [x]
                        (div
                         {:style (merge ui/row-middle {:padding "8px 0"})}
@@ -69,7 +69,9 @@
                                    :font-family ui/font-code,
                                    :cursor :pointer}),
                           :class-name "hover-item",
-                          :on-click (fn [e d! m!] (m! (assoc state :copied x)) (copy! x))}
+                          :on-click (fn [e d!]
+                            (d! cursor (assoc state :copied x))
+                            (copy! x))}
                          (<> x))))]
      (div
       {:style (merge ui/expand {:padding 40})}
@@ -78,7 +80,7 @@
        (button
         {:inner-text "Random",
          :style ui/button,
-         :on-click (fn [e d! m!] (m! (update state :count inc)))})
+         :on-click (fn [e d!] (d! cursor (update state :count inc)))})
        (=< 8 nil)
        (if (some? (:copied state))
          (span
@@ -123,13 +125,14 @@
  (reel)
  (let [store (:store reel)
        states (:states store)
+       cursor (or (:cursor states) [])
        state (or (:data states) {:schema "", :code ""})
        router (:router store)]
    (div
     {:style (merge ui/global ui/fullscreen ui/column)}
     (comp-nav (:router store))
     (case (:name router)
-      :random (cursor-> :random comp-random-list states)
+      :random (comp-random-list (>> states :random))
       (div
        {:style (merge ui/expand ui/column)}
        (div
@@ -140,12 +143,13 @@
          (button
           {:inner-text "Gen & copy",
            :style ui/button,
-           :on-click (fn [e d! m!]
+           :on-click (fn [e d!]
              (let [data-code (js/JSON.stringify
                               (gen-data (js/JSON.parse (:schema state)))
                               nil
                               2)]
-               (m!
+               (d!
+                cursor
                 (merge
                  state
                  {:code data-code,
@@ -157,7 +161,7 @@
          {:value (:schema state),
           :placeholder "Content",
           :style (merge ui/expand ui/textarea {:font-family ui/font-code}),
-          :on-input (fn [e d! m!] (m! (assoc state :schema (:value e))))})
+          :on-input (fn [e d!] (d! cursor (assoc state :schema (:value e))))})
         (textarea
          {:style (merge
                   ui/expand
@@ -165,4 +169,4 @@
                   {:font-family ui/font-code, :white-space :pre}),
           :value (:code state),
           :disabled true}))))
-    (when dev? (cursor-> :reel comp-reel states reel {})))))
+    (when dev? (comp-reel (>> states :reel) reel {})))))
