@@ -57,7 +57,8 @@
                    :available-apis (let [paths (get @*swagger-file "paths")]
                      (->> paths
                           (map (fn [[k item]] [k (string/join " " (keys item))]))
-                          (into {})))}))}
+                          (sort-by first)
+                          (into (sorted-map))))}))}
       (let [matched-path (find-match-path
                           (get-pathname (:url req))
                           (keys (get @*swagger-file "paths")))
