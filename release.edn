@@ -1,4 +1,4 @@
-{:version "0.0.2-a2"
+{:version "0.0.2-a3"
  :group-id "jimengio"
  :artifact-id "swagger-mon"
  :skip-tag true
