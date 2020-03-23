@@ -44,7 +44,8 @@
   (let [method (:method req)
         cors-headers {"Access-Control-Allow-Credentials" true,
                       "Access-Control-Allow-Origin" (:origin (:headers req)),
-                      "Access-Control-Allow-Methods" "GET,POST,DELETE,PUT"}]
+                      "Access-Control-Allow-Methods" "GET,POST,DELETE,PUT",
+                      "Access-Control-Allow-Headers" "Content-Type"}]
     (if (= :options method)
       {:code 200, :headers cors-headers, :body "OK"}
       (case (:url req)
