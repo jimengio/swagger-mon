@@ -1,34 +1,19 @@
 
 {
   :port 7800
+  :fallback-host "http://192.168.1.23:7801"
   :routes [
     {
-      :path "documents"
-      :get {:type :file :file "docs.json"}
-      :next [
-        {
-          :path "directories"
-          :get {:type :file, :file "directories.json"}
-        }
-        {
-          :path "categories"
-          :get {:type :file, :file "categories.json"}
-        }
-        {
-          :path ":id"
-          :get {:type :file, :file "doc-item.json"}
-          :next [
-            {
-              :path "histories"
-              :get {:type :file, :file "histories.json"}
-            }
-            {
-              :path "versions"
-              :get {:type :file, :file "versions.json"}
-            }
-          ]
-        }
-      ]
+      :path "documents/directories"
+      :get {:type :file, :file "directories.json"}
+    }
+    {
+      :path "documents/categories"
+      :get {:type :file, :file "categories.json"}
+    }
+    {
+      :path "documents/:id"
+      :get {:type :file, :file "doc-item.json"}
     }
   ]
 }
