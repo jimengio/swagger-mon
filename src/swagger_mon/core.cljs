@@ -25,6 +25,11 @@
           (let [city (rand-nth cities-data)] (rand-nth [(:city city) (:cityEn city)]))))
        (string/join " ")))
 
+(defn gen-number []
+  (let [x (rand-int 100)]
+    (comment "trying to get more small numbers like 0, 1, 2...")
+    (js/Math.round (+ 0.3 (* x (js/Math.pow (* 0.007 x) 5))))))
+
 (defn gen-uppercase [n]
   (->> (range n)
        (map (fn [] (js/String.fromCharCode (rand-nth (range 65 91)))))
@@ -67,8 +72,8 @@
     "string"
       (rand-nth [(gen-long (rand-int 4)) (gen-chinese-words (rand-int 24) true) (gen-short)])
     "boolean" (> (rand) 0.5)
-    "number" (rand-int 100)
-    "integer" (rand-int 100)
+    "number" (gen-number)
+    "integer" (gen-number)
     "array" (->> (range (rand-int 50)) (map (fn [idx] (expand-node (get schema "items")))))
     (do (js/console.warn "Unknown schema:" schema) schema)))
 
