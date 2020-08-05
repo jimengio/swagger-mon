@@ -59,6 +59,7 @@
                             (string/ends-with? k "At") (.toISOString (js/Date.))
                             (string/ends-with? k "From") (.toISOString (js/Date.))
                             (string/ends-with? k "To") (.toISOString (js/Date.))
+                            (= k "date") (.toISOString (js/Date.))
                             (= k "id") (.generate shortid)
                             (= k "name") (gen-short)
                             (= k "description") (gen-long 32)
@@ -75,7 +76,8 @@
     "number" (gen-number)
     "integer" (gen-number)
     "array" (->> (range (rand-int 50)) (map (fn [idx] (expand-node (get schema "items")))))
-    (do (js/console.warn "Unknown schema:" schema) schema)))
+    "null" nil
+    (do (println "Unknown schema:" (pr-str schema)) schema)))
 
 (defn gen-data [schema-obj]
   (let [schema (js->clj schema-obj), data (expand-node schema)] (clj->js data)))
