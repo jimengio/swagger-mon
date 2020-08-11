@@ -90,4 +90,4 @@
       (if (some? user-port) (js/parseInt user-port) 7801))})
   (js/setInterval (fn [] (reset! *swagger-file (read-swagger!))) (* 1000 30)))
 
-(defn reload! [] (println "reloaded"))
+(defn ^:dev/after-load reload! [] (println "reloaded"))
