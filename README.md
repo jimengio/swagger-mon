@@ -48,6 +48,8 @@ Mock strings are based on https://github.com/brightgems/china_city_dataset .
 
 ### CLI
 
+![swagger-mon on npm](https://img.shields.io/npm/v/@jimengio/swagger-mon.svg)
+
 ```bash
 yarn global add @jimengio/swagger-mon
 ```
@@ -55,9 +57,12 @@ yarn global add @jimengio/swagger-mon
 Then run command `swagger-api.json`:
 
 ```bash
-# prepare a swagger-api.json first!
+# prepare a ./swagger-api.json first!
 
-PORT=7801 swagger-mon # read...
+swagger-mon # read...
+
+# default HTTP port
+PORT=7801 swagger-mon
 ```
 
 ### Workflow

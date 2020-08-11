@@ -67,9 +67,10 @@
                             (string/ends-with? k "Addr") (gen-ip-address)
                             :else (expand-node child-schema))]))
                       (into {}))]
-        (if (and (seq? (get data "result")) (number? (get data "total")))
-          (assoc data "total" (count (get data "result")))
-          data))
+        (let [list-items (or (get data "result") (get data "items"))]
+          (if (and (seq? list-items) (number? (get data "total")))
+            (assoc data "total" (count list-items))
+            data)))
     "string"
       (rand-nth [(gen-long (rand-int 4)) (gen-chinese-words (rand-int 24) true) (gen-short)])
     "boolean" (> (rand) 0.5)
