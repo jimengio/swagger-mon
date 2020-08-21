@@ -1,6 +1,6 @@
 {
   "name": "@jimengio/swagger-mon",
-  "version": "0.0.4-a3",
+  "version": "0.0.4",
   "description": "ClojureScript workflow using Calcit Editor",
   "main": "index.js",
   "scripts": {
